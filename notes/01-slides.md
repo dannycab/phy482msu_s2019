@@ -28,7 +28,7 @@ Cell phone: 517-420-5330 (texting is fine)
 ### Important Sites
 
 * Course Webpage: [dannycab.github.io/phy482msu_s2019/](http://dannycab.github.io/phy482msu_s2019/)
-* Discord Group: [discord.gg/FcktcXz](https://discord.gg/FcktcXz) (*Check your email*)
+* Discord Group: [discord.gg/FcktcXz](https://discord.gg/FcktcXz)
 
 </section>
 
