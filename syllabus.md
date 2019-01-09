@@ -20,7 +20,7 @@ use_math: true
 -   TA/Grader: Bilal Jones, email: <jonesbil@msu.edu>
 
 ### Discord Group
-*This term we will be using Discord for class discussion. The system is highly catered to getting you help fast and efficiently from classmates and myself. Rather than emailing questions, I encourage you to post your questions on there. Find our class page at: <https://discord.gg/FcktcXz>*
+*This term we will be using Slack for class discussion. The system is highly catered to getting you help fast and efficiently from classmates and myself. Rather than emailing questions, I encourage you to post your questions on there. Find our class page at: <https://phy482spring2019.slack.com>*
 
 ## Overview
 
