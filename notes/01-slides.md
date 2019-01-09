@@ -82,7 +82,7 @@ Reminder: Homework is due on Fridays (expect this first one).
 * We will be using Python on homework problems this semester.
 * Installation instructions appear on the piazza site.
 * Homework solutions should take the form of a Jupyter notebook, which you can print to PDF and turn in.
-* If you get stuck somewhere, post on piazza, so your classmates benefit from your question.
+* If you get stuck somewhere, post on Discord, so your classmates benefit from your question.
 
 </section>
 
@@ -95,7 +95,7 @@ Reminder: Homework is due on Fridays (expect this first one).
 * Homework questions will support you on this
   * See syllabus for sample questions
 * Paper should be typed, inline references, bibliography, etc.
-* Evaluation rubric will be ready in a couple of weeks
+* Evaluation rubric is online
 
 </section>
 
@@ -108,7 +108,7 @@ Reminder: Homework is due on Fridays (expect this first one).
 * Homework questions will support you on this
   * See syllabus for sample questions
 * Can be something that has been done before that you just extend
-* Evaluation rubric will be ready in a few weeks
+* Evaluation rubric is online
 * There will be a significant self-evaluation component to this also
 
 </section>
@@ -291,147 +291,5 @@ Note:
 * CORRECT ANSWER: B
 * Think about dE/dx and dE/dy
 * Fall 2016: 7 [34] 13 43 3; (Asked them to consider dvx/dx and dvy/dy) 3 [90] 3 4 0
-
-</section>
-
-<section data-markdown>
-
-What is the value of:
-
-$$\int_{-\infty}^{\infty} x^2 \delta(x-2)dx$$
-
-1. 0
-2. 2
-3. 4
-4. $\infty$
-5. Something else
-
-Note:
-* CORRECT ANSWER: C
-
-</section>
-
-<section data-markdown>
-A point charge ($q$) is located at position $\mathbf{R}$, as shown. What is $\rho(\mathbf{r})$, the charge density in all space?
-
-<img src ="./images/pt_charge_at_R.png" align="right" style="width: 300px";/>
-
-
-1. $\rho(\mathbf{r}) = q\delta^3(\mathbf{R})$
-2. $\rho(\mathbf{r}) = q\delta^3(\mathbf{r})$
-3. $\rho(\mathbf{r}) = q\delta^3(\mathbf{R}-\mathbf{r})$
-4. $\rho(\mathbf{r}) = q\delta^3(\mathbf{r}-\mathbf{R})$
-5. Something else??
-
-Note:
-* CORRECT ANSWER: E
-* This one is a curious one because a delta function is always positive, both C and D are correct.
-* Expect most everyone to pick C
-
-</section>
-
-<section data-markdown>
-
-<img src ="./images/dipole_gauss.png" align="right" style="width: 300px";/>
-
-
-An electric dipole ($+q$ and $–q$, small distance $d$ apart) sits centered in a Gaussian sphere.
-
-What can you say about the flux of $\mathbf{E}$ through the sphere, and $|\mathbf{E}|$ on the sphere?
-
-1. Flux = 0, E = 0 everywhere on sphere surface
-2. Flux = 0, E need not be zero *everywhere* on sphere
-3. Flux is not zero, E = 0 everywhere on sphere
-4. Flux is not zero, E need not be zero...
-
-Note:
-* CORRECT ANSWER: B
-* Think about Q enclosed; what can we say about E though?
-
-</section>
-
-<section data-markdown>
-
-Which of the following two fields has zero curl?
-
-| I | II |
-|:-:|:-:|
-| <img src ="./images/cq_left_field.png" align="center" style="width: 400px";/> | <img src ="./images/cq_right_field.png" align="center" style="width: 400px";/> |
-
-1. Both do.
-2. Only I is zero
-3. Only II is zero
-4. Neither is zero
-5. ???
-
-Note:
-* CORRECT ANSWER: C
-* Think about paddle wheel
-* Fall 2016: 9 0 [89] 3 0
-</section>
-
-<section data-markdown>
-
-<img src ="./images/zappa.jpeg" align="right" style="width: 100px";/>
-
-Can superposition be applied to electric potential, $V$?
-
-$$V_{tot} \stackrel{?}{=} \sum_i V_i = V_1 +V_2 + V_3 + \dots$$
-
-1. Yes
-2. No
-3. Sometimes
-
-Note:
-As long as the zero potential is the same for all measurements.
-
-</section>
-
-
-<section data-markdown>
-
-<img src="./images/graph_shell.png" align="center" style="width: 400px";/>
-
-Could this be a plot of $\left|\mathbf{E}(r)\right|$? Or $V(r)$? (for SOME physical situation?)
-
-1. Could be $E(r)$, or $V(r)$
-2. Could be $E(r)$, but can't be $V(r)$
-3. Can't be $E(r)$, could be $V(r)$
-4. Can't be either
-5. ???
-
-</section>
-
-<section data-markdown>
-
-A point charge $+q$ sits outside a **solid neutral conducting copper sphere** of radius $A$. The charge q is a distance $r > A$ from the center, on the right side. What is the E-field at the center of the sphere? (Assume equilibrium situation).
-
-<img src="./images/copper_1.png" align="left" style="width: 300px";/>
-
-1. $|E| = kq/r^2$, to left
-2. $kq/r^2 > |E| > 0$, to left
-3. $|E| > 0$, to right
-4. $E = 0$
-5. None of these
-
-Note:
-* CORRECT ANSWER: D
-* Net electric field inside of a metal in static equilibrium is zero
-* Talk about the net field versus the field due to the charges on the metal.
-
-</section>
-
-<section data-markdown>
-
-A neutral copper sphere has a spherical hollow in the center.  A charge $+q$ is placed in the center of the hollow.  What is the total charge on the outside surface of the copper sphere? (Assume Electrostatic equilibrium.)
-
-<img src="./images/coppersphere_hole_and_charge.png" align="left" style="width: 350px";/>
-
-1. Zero
-2. $-q$
-3. $+q$
-4. $0 < q_{outer} < +q$
-5. $-q < q_{outer} < 0$
-
 
 </section>

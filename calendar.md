@@ -24,4 +24,5 @@ Videos for this week are just reminders of big ideas from 481
 
 #### Notes and Homework
 * [Lecture 1 (January 7th): Introduction to PHY 482 and Review](./notes/01-slides.html)
+* [Lecture 2 (January 9th): Review II](./notes/02-slides.html)
 * [Homework 1 (Due Fri. Jan. 11)](./assignments/homework1.html)

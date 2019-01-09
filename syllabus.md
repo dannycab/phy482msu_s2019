@@ -12,11 +12,12 @@ use_math: true
 
 -   Instructor: [Prof. Danny Caballero](http://dannycab.github.io)
 -   Class Meetings: MWF 1:50 PM - 2:40 PM (1300 BPS)
--   Instructor: <caballero@pa.msu.edu>, cell: (517) 420-5330, office:
+-   Email: <caballero@pa.msu.edu>, cell: (517) 420-5330, office:
     1310-A BPS
 -   Office hrs: Open door policy. I enjoy visiting and talking with you about physics.
 -   Web page:
     [dannycab.github.io/phy482msu_s2019/](http://dannycab.github.io/phy482msu_s2019/)
+-   TA/Grader: Bilal Jones, email: <jonesbil@msu.edu>
 
 ### Discord Group
 *This term we will be using Discord for class discussion. The system is highly catered to getting you help fast and efficiently from classmates and myself. Rather than emailing questions, I encourage you to post your questions on there. Find our class page at: <https://discord.gg/FcktcXz>*
