@@ -54,28 +54,12 @@
       <div class="slides">
         <section data-markdown="">
 
-**True or False:** The electric field, $\mathbf{E(\mathbf{r})}$, in some region of space is zero, thus the electric potential, $V(\mathbf{r})$, in that same region of space is zero.
+A proton ($q=+e$) is released from rest in a uniform $\mathbf{E}$ and uniform $\mathbf{B}$.  $\mathbf{E}$ points up, $\mathbf{B}$ points into the page.  Which of the paths will the proton initially follow?
 
-1. True
-2. False
-
-Note:
-* CORRECT ANSWER: B
-* The electric potential is a constant in the region; it might be zero, but doesn't have to be.
-
-</section>
-
-<section data-markdown="">
-
-**True or False:** The electric potential, $V(\mathbf{r})$, in some region of space is zero, thus the electric field, $\mathbf{E(\mathbf{r})}$, in that same region of space is zero.
-
-1. True
-2. False
+&lt;img src="./images/proton-in-EandB.png" align="center" style="width: 800px";/&gt;
 
 Note:
-* CORRECT ANSWER: A
-* If the potential is zero in that space is zero, then it's gradient is zero in that space, so E must be zero also.
-
+* CORRECT ANSWER: C
 </section>
 
 <section data-markdown="">
@@ -83,113 +67,14 @@ Note:
 ## Announcements
 
 * Homework 1 due today at 5pm
-  * After 3:40pm turn in to Kim Crosslan
+  * After class put on my office
   * Last two questions turn in on Github
 * Quiz #1 - Next Friday
   * Last 20 minutes of class
   * No cheat sheets; all formulas will be provided
-  * Solve a Gauss' Law Problem with spherical symmetry
+  * Solve a Gauss' Law Problem with cylindrical symmetry
   * Sketch a graph of the resulting electric field
 
-</section>
-
-<section data-markdown="">
-
-The general solution for the electric potential in spherical coordinates with azimuthal symmetry (no $\phi$ dependence) is:
-
-$$V(r,\theta) = \sum_{l=0}^{\infty} \left(A_l r^l + \dfrac{B_l}{r^{l+1}}\right)P_l(\cos \theta)$$
-
-Consider a metal sphere (constant potential in and on the sphere, remember). Which terms in the sum vanish outside the sphere? (Recall: $V \rightarrow 0$ as $r \rightarrow \infty$)
-
-1. All the $A_l$'s
-2. All the $A_l$'s except $A_0$
-3. All the $B_l$'s
-4. All the $B_l$'s except $B_0$
-5. Something else
-
-Note:
-* CORRECT ANSWER: E
-* Only B0 will survive.
-
-</section>
-
-<section data-markdown="">
-
-$$\mathbf{p} = \sum_i q_i \mathbf{r}_i$$
-
-&lt;img src="./images/dipole_2q_and_q.png" align="right" style="width: 200px";/&gt;
-
-What is the dipole moment of this system?
-
-(BTW, it is NOT overall neutral!)
-
-1. $q\mathbf{d}$
-2. $2q\mathbf{d}$
-3. $\frac{3}{2}q\mathbf{d}$
-4. $3q\mathbf{d}$
-5. Someting else (or not defined)
-
-Note:
-* CORRECT ANSWER: B
-
-</section>
-
-<section data-markdown="">
-
-You have a physical dipole, $+q$ and $-q$ a finite distance $d$ apart. When can you use the expression:
-
-$$V(\mathbf{r}) = \dfrac{1}{4 \pi \varepsilon_0}\dfrac{\mathbf{p}\cdot \hat{\mathbf{r}}}{r^2}$$
-
-1. This is an exact expression everywhere.
-2. It's valid for large $r$
-3. It's valid for small $r$
-4. No idea...
-
-Note:
-* CORRECT ANSWER: B
-
-</section>
-
-<section data-markdown="">
-
-You have a physical dipole, $+q$ and $-q$ a finite distance $d$ apart. When can you use the expression:
-
-$$V(\mathbf{r}) = \dfrac{1}{4 \pi \varepsilon_0}\sum_i \dfrac{q_i}{\mathfrak{R}_i}$$
-
-1. This is an exact expression everywhere.
-2. It's valid for large $r$
-3. It's valid for small $r$
-4. No idea...
-
-Note:
-* CORRECT ANSWER: A
-
-
-</section>
-
-<section data-markdown="">
-
-Which charge distributions below produce a potential that looks like $\frac{C}{r^2}$ when you are far away?
-
-&lt;img src="./images/multipole_charge_configs_1.png" align="center" style="width: 600px";/&gt;
-
-E) None of these, or more than one of these!
-
-(For any which you did not select, how DO they behave at large r?)
-
-Note:
-* CORRECT ANSWER: E (Both C and D)
-
-</section>
-
-<section data-markdown="">
-
-A proton ($q=+e$) is released from rest in a uniform $\mathbf{E}$ and uniform $\mathbf{B}$.  $\mathbf{E}$ points up, $\mathbf{B}$ points into the page.  Which of the paths will the proton initially follow?
-
-&lt;img src="./images/proton-in-EandB.png" align="center" style="width: 800px";/&gt;
-
-Note:
-* CORRECT ANSWER: C
 </section>
 
 <section data-markdown="">
@@ -225,7 +110,7 @@ Note:
 
 <section data-markdown="">
 
-To find the magnetic field $\mathbf{B}$ at P due to a current-carrying wire we use the Biot-Savart law,  
+To find the magnetic field $\mathbf{B}$ at P due to a current-carrying wire we use the Biot-Savart law,
 $$\mathbf{B}(\mathbf{r})  = \dfrac{\mu_0}{4\pi}I\int \dfrac{d\mathbf{l}\times\hat{\mathfrak{R}}}{\mathfrak{R}^2}$$
 In the figure, with $d\mathbf{l}$ shown, which purple vector best represents $\mathfrak{R}$?
 

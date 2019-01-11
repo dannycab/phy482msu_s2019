@@ -12,3 +12,4 @@ permalink: notes/index.html
 
 * Lecture 1 (January 7th): Introduction to PHY 482 and Review [[HTML]](./01-slides.html) [[PDF]](./01-slides.pdf)
 * Lecture 2 (January 9th): Review II [[HTML]](./02-slides.html)[[PDF]](./02-slides.pdf)
+* Lecture 3 (January 11th): Review III [[HTML]](./03-slides.html)[[PDF]](./03-slides.pdf)
