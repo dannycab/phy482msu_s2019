@@ -1,7 +1,7 @@
 ---
 layout: homework
 use_math: true
-title: Homework 2 (Due. Jan 23)
+title: Homework 2 (Due. Jan 18)
 ---
 
 ## 1. An Electric Field that We Will Revisit
@@ -53,9 +53,17 @@ $$\mathbf{A} = A_0 exp\left(-\frac{x^2+y^2}{a^2}\right)\hat{\mathbf{z}}$$
 3. If I stretch a given piece of copper wire, making it 0.1% longer, how much would this (roughly) change the resistance from end to end? (What assumptions are you making?)
 4. Suppose I connect two 1-mm diameter wires end to end, made of different materials, copper to gold.  When 10 A flows through the system, a thin layer of charge appears at the boundary.  Estimate the total charge that has accumulated at the boundary. What is the sign of the accumulated charge? What determines this sign? (Note: Griffiths Table 7.1 may be helpful here, and of course our usual boundary conditions, back in Griffiths Chapter 2.3.5)
 
-## 5. Investigating the Electric Field in a Wire
+## 5. Speherical resistors
 
-This problem includes a Jupyter notebook that will compute the electric field of a charged ring along its central axis. Your job is to modify this code to investigate the profile of the electric field inside a wire. Recall that the excess charge on the surface of the wire generates the electric field that moves charges in the wire. This charge distribution is gradated (i.e., it slowly changes sign as you move from the anode to cathode).
+Resistors can take a number of forms, consider one constructed from two concentric metal spheres with a conducitng material filling the space between them. The spheres have radii $R_1$ and $R_2$ and the material has conductivity $\sigma$.
+
+1. Show that the potential difference across them is a constant: $V$, that global statement of steady state current holds. That is, what is the current for any distance $r$ from the inner sphere?
+2. What happens with the local statement, $\nabla \cdot \mathbf{J} = \partial \rho / \partial t$? Comment on any pecularities you find.
+3. Determine the resistance between the shells.
+
+## 6. Investigating the Electric Field in a Wire
+
+This problem includes [a Jupyter notebook](./code/efield-charged-ring-axis.ipynb) that will compute the electric field of a charged ring along its central axis. Your job is to modify this code to investigate the profile of the electric field inside a wire. Recall that the excess charge on the surface of the wire generates the electric field that moves charges in the wire. This charge distribution is gradated (i.e., it slowly changes sign as you move from the anode to cathode).
 
 To do this investigation, you will need to perform two tasks:
 
@@ -64,13 +72,13 @@ To do this investigation, you will need to perform two tasks:
 
 *Notice for task 2, you will need to add rings on either side of the initial ring with gradated surface charge (i.e., the charge of each ring will change a little as you move away from the central ring).*
 
-**You will turn this in using a GitHub repository [HW2Q5-FieldInAWire](https://classroom.github.com/assignment-invitations/597b0c22e341c974b5f9948c638cbf9b)**
+**You will turn this in using your GitHub repository.**
 
-## 6. Project Problem - Starting an annotated bibliography
+## 7. Project Problem - Starting an annotated bibliography
 Last week, you identified an area of physics that you were interested in investigating further. Make sure you read over your feedback carefully and make any adjustments that are requested.
 
 Starting from your proposed list of articles, you will begin to construct an annotated bibliography. In research, it's often useful to write a short summary of your own about the articles that you read. That way you don't have to return to the article entirely to make sense of what you know. This is a living document that gets added to and refined as you read more literature.
 
 For this week, read and summarize 2 of the 4 relevant journal articles. While working through each paper think about the following questions to guide your summary of each: What does the paper say about your phenomenon? How are the theoretical models constructed? What assumptions and approximations are being made? What are the predictions and implications? What more do you need to know to understand this article? For this first summary, I expect you to write 2-3 paragraphs per article that you summarize. You may include equations and figures, but they do not count towards the total number of paragraphs.
 
-**You will turn this in using a GitHub repository [HW2Q6-StartingBibliography](https://classroom.github.com/assignment-invitations/c05ae6101aba7cc743e714d1920b9716)**
+**You will turn this in using your GitHub repository.**
