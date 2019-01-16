@@ -4,29 +4,6 @@ theme: white
 transition: slide
 ---
 
-
-<section data-markdown>
-
-Inside this resistor setup, (real world, finite sizes!) What does the E field look like inside ?
-
-<img src="./images/simple_resistor_2.png" align="center" style="width: 600px";/>
-
-
-1. Must be uniform and horizontal
-2. Must have some nonuniformity, due to fringing effects!
-
-
-</section>
-
-<section data-markdown>
-
-
-## Register your clicker
-
-Go to [https://www1.iclicker.com/register-clicker/](https://www1.iclicker.com/register-clicker/) and register your clicker.
-
-</section>
-
 <section data-markdown>
 
 Inside this resistor setup, what can you conclude about the current density $\mathbf{J}$ near the side walls (in steady state)?
@@ -52,5 +29,38 @@ Note:
 * How does your result relate to Ohm's Law?
 
 Hint: Assume a uniform charge $+Q$ distributed over the inner sphere and use Gauss' Law to find $\mathbf{E}$.
+
+</section>
+
+
+<section data-markdown>
+
+Recall the machined copper from last class, with steady current flowing left to right through it
+
+<img src="./images/machined_copper_2.png" align="center" style="width: 600px";/>
+
+In the "necking down region" (somewhere in a small-ish region around the head of the arrow), do you think
+
+1. $\nabla \cdot \mathbf{E} = 0$
+2. $\nabla \cdot \mathbf{E} \neq 0$
+
+Note:
+* Correct Answer: A
+
+</section>
+
+<section data-markdown>
+
+Recall the machined copper from last class, with steady current flowing left to right through it
+
+<img src="./images/machined_copper_2.png" align="center" style="width: 600px";/>
+
+In steady state, do you expect there will be any surface charge accumulated anywhere on the walls of the conductor?
+
+1. Yes
+2. No
+
+Note:
+* Correct Answer: A
 
 </section>
