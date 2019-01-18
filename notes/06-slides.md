@@ -31,10 +31,10 @@ The units of EMF are:
 2. Joules
 3. Amps, (that’s why current flows.)
 4. Newtons, (that’s why it’s called emf)
-5. Volts
+5. Something else
 
 Note:
-* Correct Answer: E
+* Correct Answer: E; J/C = V
 
 </section>
 
@@ -49,6 +49,26 @@ Can we drive the charge around the loop with some combination of stationary + an
 
 1. Yes
 2. No
+
+Note:
+* Correct Answer: B
+
+</section>
+
+<section data-markdown>
+
+Consider a pure electrostatic electric field $\mathbf{E}_{es}$; in this case, the curl of the field vanishes (as we have seen before).
+
+$$\nabla \times \mathbf{E}_{es} = 0$$
+
+What is the $EMF$ associated with such a field over a closed loop?
+
+$$\oint \mathbf{E}_{es} \cdot d\mathbf{l} = ??$$
+
+1. Non-zero
+2. Zero
+2. Positive
+4. Negative
 
 Note:
 * Correct Answer: B

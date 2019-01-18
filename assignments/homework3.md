@@ -1,7 +1,7 @@
 ---
 layout: homework
 use_math: true
-title: Homework 3 (Due. Jan 30)
+title: Homework 3 (Due. Jan 26)
 ---
 
 # 1. Homopolar Motor
@@ -21,13 +21,13 @@ Michael Faraday came up with a relatively simple DC generator called a homopolar
 
 [AC]: ./images/hw3/AC_generator.png
 
-A square loop with side $a$ is mounted on a horizontal axis and rotates with a steady frequency $f$ (rotations/sec.) A uniform magnetic field $B$ points left to right between the two pole faces.  The figure shows the configuration at time t=0. (No flux at this instant!)  
+A square loop with side $a$ is mounted on a horizontal axis and rotates with a steady frequency $f$ (rotations/sec.) A uniform magnetic field $B$ points left to right between the two pole faces.  The figure shows the configuration at time t=0. (No flux at this instant!)
 
 1. If the output is connected to a load resistance $R$, calculate the instantaneous and average power dissipated in the resistor.
 2. Compare your results to the mechanical power needed to turn the loop. (*Hint: recall from mechanics that the mechanical power to turn a loop is given by power= torque*angular velocity, in direct analogy to power = force * velocity*)
 3.  If the rotation rate is 60 Hz, the loop has area 0.02$\mathrm{m}^2$, and the B-field is 0.2T, about how many turns of wire would you need to produce a standard 120 V (RMS) output? Note: RMS means "Root mean square", do you remember the connection between $V_{max}$ and $V_{RMS}$?  *Just FYI, a variant is to hold the loop fixed (the stator) with an electromagnet coil (the rotor) rotated around the stator. This configuration is called an alternator.*
 
-# 3. Eddy current brake:  
+# 3. Eddy current brake:
 
 An electromagnetic "eddy current brake" consists of a solid spinning wheel of conductivity $\sigma$ and thickness $d$.  A uniform field $B_0$ is applied perpendicular to the surface of the wheel over a small area $A$ located a distance $s$ from the axis.
 
@@ -47,7 +47,7 @@ A rectangular loop of metal wire, of width $w$, moving with constant speed $v$, 
 3. Also, explicitly check that your answer to part 1 makes sense by (i) checking units and (ii) considering the two cases $v = 0$ and  $\alpha = 0$.  Explain how these limits give answers you might expect.
 4. **Using a jupyter notebook**, graph the expression for the EMF as a function of time for different ranges of $\alpha$. By ranges here, I mean different orders of magnitude for $\alpha$. This technique can be used to see if there is qualitatively different behavior when parameters change. Is there? What about for different ranges of $v$?
 
-**You will turn part 4 in using a GitHub repository [HW2Q4-FaradaysLaw](https://classroom.github.com/assignment-invitations/d75c29ae801d023e1dbe4ba2938aad54)**
+**You will turn part 4 in using your GitHub repository**
 
 # 5. Falling Metal Loop
 
@@ -63,6 +63,7 @@ A square metal loop is released from rest and falls straight down.  The loop is 
 3. At t = 0, the loop starts at rest.  Use $F_{net} = ma$ to write down a differential equation for the speed $v$ of the loop. Then, solve for the speed $v$ as a function of time.  You should find that the speed approaches the terminal speed exponentially – sketch $v(t)$.  What is the time constant for this exponential motion? If the metal is aluminum, and $B$ is, say, 0.2 T, what is the numerical value of the time constant? (*Hint: I claim the values of L, w, t don’t matter. Show us why not!*)
 
 ## 6. Project Problem - Continuing your annotated bibliography
+## (Actually due on Friday)
 Last week, you started an annotated bibliography, a detailed summary of each of the 2 articles you read. Make sure you read over your feedback carefully and make any adjustments that are requested.
 
 This week you will continue that work by adding to your bibliography by writing a detailed summary of at least 2 additional articles. You should also review the feedback that you received and adjust the summaries of the prior two articles as well as the current two to more well aligned with the feedback. A perfect score on this question will reflect the quality of the adjustments that you made as a result of the feedback.
@@ -71,4 +72,4 @@ Below are the instructions, which are (mostly) repeated from last week:
 
 For this week, read and summarize 2 additional journal articles. While working through each paper think about the following questions to guide your summary of each: What does the paper say about your phenomenon? How are the theoretical models constructed? What assumptions and approximations are being made? What are the predictions and implications? What more do you need to know to understand this article? For this first summary, I expect you to write 2-3 paragraphs per article that you summarize. You may include equations and figures, but they do not count towards the total number of paragraphs.
 
-**You will turn this in using a GitHub repository [HW3Q6-ContinuingBibliography](https://classroom.github.com/assignment-invitations/eec00b7fcd8888f040ba3f78a580088a)**
+**You will turn this in using your GitHub repository**
