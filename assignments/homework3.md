@@ -15,26 +15,15 @@ Michael Faraday came up with a relatively simple DC generator called a homopolar
 1. Show that the power dissipated in the resistor is $??\omega^2B^2D^4/R$, (where the "??" is some numerical constant out front. Is it 1, 0.5, $\pi$,...?)
 2. How fast would a 1 m diameter generator in a 0.2 Tesla magnetic field have to rotate to produce an EMF of 120 V?  (answer in Hz, please).
 
-# 2. A more typical AC generator
 
-![AC][AC]
-
-[AC]: ./images/hw3/AC_generator.png
-
-A square loop with side $a$ is mounted on a horizontal axis and rotates with a steady frequency $f$ (rotations/sec.) A uniform magnetic field $B$ points left to right between the two pole faces.  The figure shows the configuration at time t=0. (No flux at this instant!)
-
-1. If the output is connected to a load resistance $R$, calculate the instantaneous and average power dissipated in the resistor.
-2. Compare your results to the mechanical power needed to turn the loop. (*Hint: recall from mechanics that the mechanical power to turn a loop is given by power= torque*angular velocity, in direct analogy to power = force * velocity*)
-3.  If the rotation rate is 60 Hz, the loop has area 0.02$\mathrm{m}^2$, and the B-field is 0.2T, about how many turns of wire would you need to produce a standard 120 V (RMS) output? Note: RMS means "Root mean square", do you remember the connection between $V_{max}$ and $V_{RMS}$?  *Just FYI, a variant is to hold the loop fixed (the stator) with an electromagnet coil (the rotor) rotated around the stator. This configuration is called an alternator.*
-
-# 3. Eddy current brake:
+# 2. Eddy current brake:
 
 An electromagnetic "eddy current brake" consists of a solid spinning wheel of conductivity $\sigma$ and thickness $d$.  A uniform field $B_0$ is applied perpendicular to the surface of the wheel over a small area $A$ located a distance $s$ from the axis.
 
 1. Show that the torque on this disk is given (very approximately) by $\tau = \sigma \omega B^2 s^2 A d$.
 2. Estimate how high $B_0$ should be for this kind of brake to be functional as a car brake, given a magnet size of 20 $\mathrm{cm}^2$ per brake.  (*"Estimate" here means just that – make some reasonable guesses about the various parameters you need. Think about real cars in the real world! Order of magnitude is what we’re after, don’t fuss about factors of 2 or 3*) Do you foresee any problem as the car slows down?
 
-# 4. Moving in a Time-Varying Field
+# 3. Moving in a Time-Varying Field
 
 ![fl][fl]
 
@@ -49,7 +38,7 @@ A rectangular loop of metal wire, of width $w$, moving with constant speed $v$, 
 
 **You will turn part 4 in using your GitHub repository**
 
-# 5. Falling Metal Loop
+# 4. Falling Metal Loop
 
 ![loop][loop]
 
@@ -62,7 +51,7 @@ A square metal loop is released from rest and falls straight down.  The loop is 
 2. Show that (when traveling at $v_{term}$) the rate at which thermal energy is generated in the metal ($P_{thermal}$) is equal to the rate at which gravity does work on the loop ($P_{grav}).  Briefly, why must they be equal?
 3. At t = 0, the loop starts at rest.  Use $F_{net} = ma$ to write down a differential equation for the speed $v$ of the loop. Then, solve for the speed $v$ as a function of time.  You should find that the speed approaches the terminal speed exponentially – sketch $v(t)$.  What is the time constant for this exponential motion? If the metal is aluminum, and $B$ is, say, 0.2 T, what is the numerical value of the time constant? (*Hint: I claim the values of L, w, t don’t matter. Show us why not!*)
 
-## 6. Project Problem - Continuing your annotated bibliography
+## 5. Project Problem - Continuing your annotated bibliography
 ## (Actually due on Friday)
 Last week, you started an annotated bibliography, a detailed summary of each of the 2 articles you read. Make sure you read over your feedback carefully and make any adjustments that are requested.
 
