@@ -10,22 +10,6 @@ Recall the machined copper from last class, with steady current flowing left to 
 
 <img src="./images/machined_copper_2.png" align="center" style="width: 600px";/>
 
-In the "necking down region" (somewhere in a small-ish region around the head of the arrow), do you think
-
-1. $\nabla \cdot \mathbf{E} = 0$
-2. $\nabla \cdot \mathbf{E} \neq 0$
-
-Note:
-* Correct Answer: A
-
-</section>
-
-<section data-markdown>
-
-Recall the machined copper from last class, with steady current flowing left to right through it
-
-<img src="./images/machined_copper_2.png" align="center" style="width: 600px";/>
-
 In steady state, do you expect there will be any surface charge accumulated anywhere on the walls of the conductor?
 
 1. Yes
@@ -36,51 +20,12 @@ Note:
 
 </section>
 
-
-<section data-markdown>
-
-Quiz #1 was a fair assessment.
-
-1. Strongly Agree
-2. Agree
-3. Neutral
-4. Disagree
-5. Strongly Disagree
-
-</section>
-
-<section data-markdown>
-
-I had enough time to complete Quiz #1.
-
-1. Strongly Agree
-2. Agree
-3. Neutral
-4. Disagree
-5. Strongly Disagree
-
-</section>
-
-<section data-markdown>
-
-## Announcements
-
-* Quiz #1 is graded. Average: 83%
-  * Would you like emailed grade reports after each quiz?
-* Homework 3 is posted; Due Monday Jan 30th
-  * Turn in to Kim Crosslan by 4pm
-* **No Class on Monday, Jan 30**  - DC out of town
-  * Will be available by text and email
-  * Homework 4 will be posted
-
-</section>
-
 <section data-markdown>
 
 $\mathcal{E} = \oint \mathbf{E} \cdot d\mathbf{l}$
 
 EMF ($\mathcal{E}$) is the line integral of the total force per unit charge around a closed loop.
-The units of EMF are:   
+The units of EMF are:
 
 1. Farads
 2. Joules

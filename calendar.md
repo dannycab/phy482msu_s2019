@@ -22,6 +22,7 @@ use_math: true
 #### Notes and Homework
 
 * [Current and Ohm's Law - Handwritten](./notes/handwritten/01-Current_and_Ohms_Law.pdf)
+* [Homework 2 (Due Fri. Jan. 18)](./assignments/homework2.html)
 
 ---
 
