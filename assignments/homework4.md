@@ -1,7 +1,7 @@
 ---
 layout: homework
 use_math: true
-title: Homework 4 (Due. Feb 6)
+title: Homework 4 (Due. Feb 8)
 ---
 
 **There are fewer homework problems and no computational problem this week, so you can focus on the project problem (Problem 5 below). It is very important to work on the project problem this week because it starts you on the process of writing your paper. The project problem will take you longer than it has in the past, so start early!**
@@ -55,4 +55,4 @@ In writing this think about:
 * How do people investigate it theoretically? Experimentally? Computationally?
 * What are open questions surrounding the phenomenon?
 
-**You will turn this in using a GitHub repository [HW4Q5-BuildingYourPaper](https://classroom.github.com/assignment-invitations/efe20288c63333dfe0039e7dcfca7b66)**
+**You will turn this in using your GitHub repository.**

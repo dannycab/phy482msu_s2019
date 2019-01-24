@@ -1,7 +1,7 @@
 ---
 layout: homework
 use_math: true
-title: Homework 3 (Due. Jan 26)
+title: Homework 3 (Due. Jan 25)
 ---
 
 # 1. Homopolar Motor

@@ -10,6 +10,7 @@ permalink: notes/index.html
 * [01 - Current and Ohm's Law](./handwritten/01-Current_and_Ohms_Law.pdf)
 * [02 - Electromotive Force](./handwritten/02-EMF.pdf)
 * [03 - Motional EMF](./handwritten/03-Motional_EMF.pdf)
+* [04 - Faraday's Law](./handwritten/04-Faradays_Law.pdf)
 
 ## Slides
 
