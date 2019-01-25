@@ -20,4 +20,5 @@ permalink: notes/index.html
 * Lecture 4 (January 14th): Current and Ohm's Law [[HTML]](./04-slides.html)[[PDF]](./04-slides.pdf)
 * Lecture 5 (January 16th): Current and Ohm's Law II [[HTML]](./05-slides.html)[[PDF]](./05-slides.pdf)
 * Lecture 6 (January 18th): Introduction to EMF [[HTML]](./06-slides.html)[[PDF]](./06-slides.pdf)
-* Lecture 7 (January 23rd): Motional EMF [[HTML]](./07-slides.html)[[PDF]](./06-slides.pdf)
+* Lecture 7 (January 23rd): Motional EMF [[HTML]](./07-slides.html)[[PDF]](./07-slides.pdf)
+* Lecture 8 (January 25th): Motional EMF II and Faraday's Law [[HTML]](./08-slides.html)[[PDF]](./08-slides.pdf)

@@ -4,36 +4,6 @@ theme: white
 transition: slide
 ---
 
-<section data-markdown>
-
-A rectangular metal loop moves through a region of constant uniform magnetic field $\mathbf{B}$, with speed $v$ at $t = 0$, as shown.  What is the magnetic force on the loop at the instant shown? Assume the loop has resistance $R$.
-
-<img src="./images/loop_in_Bfield.png" align="left" style="width: 500px";/>
-
-1. $2L^2 vB^2/R$ (right)
-2. $2L^2 vB^2/R$  (left)
-3. 0
-4. Something else/not sure...
-
-Note:
-* Correct Answer: C
-</section>
-
-<section data-markdown>
-
-## Announcements
-
-* Project problems have been graded
-  * Sync your repository to get your feedback; read it!
-* No class Monday (DC out of town)
-  * Email and text are fine if you need help with HW
-  * Also use Piazza!
-* Quiz 2 - Next Friday (Motional EMF)
-  * Discuss the differences between:
-    * $\mathcal{E} = \oint \mathbf{f} \cdot d\mathbf{l}$ and $\mathcal{E} = -\frac{d\Phi_B}{dt}$
-  * Solve a motional EMF problem and discuss the direction of the current
-
-</section>
 
 <section data-markdown>
 
@@ -57,6 +27,22 @@ Note:
 * Correct Answer: B
 
 </section>
+
+<section data-markdown>
+
+## Announcements
+
+* Homework 4 (Due Feb 8)
+  * Project problem is longer!
+* Quiz 2 - Next Friday (Motional EMF)
+  * Discuss the differences between:
+    * $\mathcal{E} = \oint \mathbf{f} \cdot d\mathbf{l}$ and $\mathcal{E} = -\frac{d\Phi_B}{dt}$
+  * Solve a motional EMF problem and discuss the direction of the current
+* DC out of town (Feb 4-8)
+  * Rachel Henderson will cover
+* Film crew will be here on Wednesday
+</section>
+
 
 <section data-markdown>
 
