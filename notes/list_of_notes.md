@@ -11,6 +11,8 @@ permalink: notes/index.html
 * [02 - Electromotive Force](./handwritten/02-EMF.pdf)
 * [03 - Motional EMF](./handwritten/03-Motional_EMF.pdf)
 * [04 - Faraday's Law](./handwritten/04-Faradays_Law.pdf)
+* [05 - Inductance](./handwritten/05-Inductance.pdf)
+* [06 - RLC Circuits](./handwritten/06-RLC.pdf)
 
 ## Slides
 
@@ -22,3 +24,5 @@ permalink: notes/index.html
 * Lecture 6 (January 18th): Introduction to EMF [[HTML]](./06-slides.html)[[PDF]](./06-slides.pdf)
 * Lecture 7 (January 23rd): Motional EMF [[HTML]](./07-slides.html)[[PDF]](./07-slides.pdf)
 * Lecture 8 (January 25th): Motional EMF II and Faraday's Law [[HTML]](./08-slides.html)[[PDF]](./08-slides.pdf)
+* Lecture 9 (February 1st): Faraday's Law and Inductance [[HTML]](./09-slides.html)[[PDF]](./09-slides.pdf)
+* Week 5 (February 4-8): Inductance and RLC Circuits [[HTML]](./10-slides.html)[[PDF]](./10-slides.pdf)
