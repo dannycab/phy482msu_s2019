@@ -16,6 +16,7 @@ Somewhere in space a magnetic field is changing with time, there are no other so
 
 Note:
 * Correct Answer: E
+* It's C and D because we can't define V in the same way as before.
 
 </section>
 
@@ -32,6 +33,7 @@ The current $I_1$ in loop 1 is increasing. What is the direction of the induced 
 
 Note:
 * Correct Answer: B
+* The magnetic field due to loop 1 is increasing and points up, which creates an electric field that curls around the negative increasing direction (i.e., opposite the direction loop 1). Or you can think lenz's law; the magnetic flux is increasing through loop 2.
 </section>
 
 <section data-markdown>
@@ -47,6 +49,7 @@ The current $I_1$ in loop 1 is increasing. What is the direction of the induced 
 
 Note:
 * Correct Answer: A
+* Similar to the previous one, but the magnetic field now points down (think magnetic dipole for the shape of the field).
 </section>
 
 <section data-markdown>
@@ -62,6 +65,7 @@ The current $I_1$ in loop 1 is decreasing. What is the direction of the induced 
 
 Note:
 * Correct Answer: C
+* There's basically no flux, because the magnetic field points down and the loop face is perpendicular to that magnetic field.
 </section>
 
 <section data-markdown>
@@ -77,6 +81,7 @@ Two flat loops of equal area sit in a uniform field $\mathbf{B}$ which is increa
 
 Note:
 * Correct Answer: A
+* Loop 2 will have roughly no current because the orientation of the crossover is such that current would try to run CW in both lobes.
 
 </section>
 
@@ -99,6 +104,7 @@ Which is easier to compute?
 
 Note:
 * Correct Answer: A
+* The geometry of the first one is easier. This means we can choose to solve the easy problem as M12 = M21.
 
 </section>
 
@@ -115,7 +121,7 @@ A long solenoid of cross sectional area, $A$,  length, $l$, and number of turns,
 
 Note:
 * Correct Answer: C
-
+* This is meant to be a reminder of the field of a solenoid with N turns and length l; recall it's turns per length that matter N/l.
 </section>
 
 <section data-markdown>
@@ -131,6 +137,7 @@ A long solenoid of cross sectional area, $A$,  length, $l$, and number of turns,
 
 Note:
 * Correct Answer: D
+* This is just flux divided by current; but the flux through the whole solenoid is N times the flux through one loop.
 
 </section>
 
@@ -165,7 +172,8 @@ The switch is closed at $t=0$. What can you say about $I(t=0+)$?
 5. ???
 
 Note:
-* Correct Answer: B
+* Correct Answer: A
+* Just after the switch is closed; the inductor has seen a huge dI/dt
 
 </section>
 
@@ -183,6 +191,7 @@ E) None of these (they all have a serious error!)
 
 Note:
 * Correct Answer: B
+* The current grows as the inductor sees less changes, eventually saturating.
 
 </section>
 
@@ -202,6 +211,7 @@ $(t=0+)$?
 
 Note:
 * Correct Answer: B
+* There's no current, so the potential drop is entirely across the inductor
 
 </section>
 
@@ -217,6 +227,7 @@ The complex exponential: $e^{i\omega t}$ is useful in calculating properties of 
 
 Note:
 * Correct Answer: C
+* Just a reminder of the euler equation for the future
 </section>
 
 <section data-markdown>
@@ -231,6 +242,7 @@ What is $\vert 2+i \vert$?
 
 Note:
 * Correct Answer: D
+* Use pythagoras in the complex plane
 </section>
 
 <section data-markdown>
@@ -244,7 +256,29 @@ What is $(1+i)^2/(1-i)$?
 5. Something else!
 
 Note:
-*Correct Answer: D
+* Correct Answer: D
+* Best to convert to euler with phase and just use the rules for adding and subtracting of exponents
+
+</section>
+
+<section data-markdown>
+
+For the RL circuit with driving voltage of $V(t) = V_0 \cos (\omega t)$, we found a solution for the current as a function of time, with $I=0$ at $t=0$,
+
+$$I(t) = a \cos(\omega t + \phi) - a\cos(\phi) e^{-Rt/L}$$
+
+where $a = \frac{V_0}{\sqrt{R^2+L^2\omega^2}}$ and $\phi = \tan^{-1}(-L\omega/R)$. What happens to the current when $\omega \rightarrow 0$?
+
+1. Current is essentially zero, for all time
+2. Current dies off completely, eventually goes to zero
+3. Eventually, current is constant, $V_0/R$
+4. It depends
+5. ???
+
+Note:
+* Correct answer: C
+* It's just the DC result, the current saturates as before
+
 </section>
 
 <section data-markdown>
@@ -261,7 +295,13 @@ where $a = \frac{V_0}{\sqrt{R^2+L^2\omega^2}}$ and $\phi = \tan^{-1}(-L\omega/R)
 4. It depends
 5. ???
 
+Note:
+* Correct answer: A
+* The fast changes cause very large dI/dt, so the inductor continues to resist current flow
+
 </section>
+
+
 
 <section data-markdown>
 
@@ -271,6 +311,7 @@ Which point below best represents $4e^{i3\pi/4}$ on the complex plane?
 
 Note:
 * Correct Answer: D
+* Graph it out with the the 3pi/4 rotation
 
 </section>
 
@@ -287,5 +328,6 @@ What is the total impedance of this circuit, $Z_{total}$?
 
 Note:
 * Correct Answer: B
+* Just use the definitions of each and add in series
 
 </section>
