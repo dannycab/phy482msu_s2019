@@ -328,6 +328,6 @@ What is the total impedance of this circuit, $Z_{total}$?
 
 Note:
 * Correct Answer: B
-* Just use the definitions of each and add in series
+* Just use the definitions of each and add in seriesjs
 
 </section>

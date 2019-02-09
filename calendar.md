@@ -5,6 +5,31 @@ permalink: calendar.html
 use_math: true
 ---
 
+### Week 6 - RLC Circuits, Phasors, Leading and Lagging
+
+*The readings and notes here are the same as last week*
+
+#### Pre-class Videos
+
+* [Reminders about Complex Numbers](https://youtu.be/fAjEsz3qppA)
+* [Phasors and Impedance](https://youtu.be/DAc4EHRs7XI)
+* [Leading and Lagging](https://youtu.be/V7sa-godL7A)
+
+#### Reading
+
+* Read my notes on RLC circuits for this week
+* Read [this paper on phasors](./papers/2015_Close_Phasors.pdf)
+* Read Ch 7.3.1-7.3.3 for next week
+
+
+#### Notes and Homework
+
+* [Inductance](./notes/handwritten/05-Inductance.pdf)
+* [RLC Circuits](./notes/handwritten/06-RLC.pdf)
+* [Homework 5 (Due Fri. Feb. 15)](./assignments/homework5.html)
+
+---
+
 ### Week 5 - Inductance and RLC Circuits
 
 *We are likely to continue RLC Circuits next week, so don't worry about taking your time with readings.*

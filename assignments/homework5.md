@@ -1,7 +1,7 @@
 ---
 layout: homework
 use_math: true
-title: Homework 5 (Due. Feb 13)
+title: Homework 5 (Due. Feb 15)
 ---
 
 ## 1. An LC circuit
@@ -65,7 +65,7 @@ $$V_{in}(t) = \dfrac{4}{\pi}\sum_{k=1}^\infty \dfrac{\sin((2k-1)\omega t)}{2k-1}
 
 *Hint: If you use a loop you should start to see the effects more easily as you can keep as many terms as you want.*
 
-**You will turn your notebook in using GitHub Classroom: [HW5Q4-ACFilter](https://classroom.github.com/assignment-invitations/0ab052f4ca6ca2ce93f1c16477aabc7d)**
+**You will turn your notebook in using GitHub repository.**
 
 ## 5. Project Problem - Building your paper II
 
@@ -77,4 +77,4 @@ For this week, you should start thinking about:
 * How can I dig deeper and explain in more detail what I've learned from the previous papers and the ones I'm reading currently?
 * What kind of feedback did I get about my previous summary and how do I improve on what I've done?
 
-**You will turn this question in using GitHub Classroom: [HW5Q5-BuildingYourPaper2](https://classroom.github.com/assignment-invitations/7eb78dc975c73938d9e78f87726c7fe3)**
+**You will turn this question in using your GitHub repository**
