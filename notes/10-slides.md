@@ -217,52 +217,6 @@ Note:
 
 <section data-markdown>
 
-The complex exponential: $e^{i\omega t}$ is useful in calculating properties of many time-dependent equations. According to Euler, we can also write this function as:
-
-1. $\cos(i \omega t) + \sin (i \omega t)$
-2. $\sin (\omega t) + i \cos(\omega t)$
-3. $\cos(\omega t) + i \sin (\omega t)$
-4. MORE than one of these is correct
-5. None of these is correct!
-
-Note:
-* Correct Answer: C
-* Just a reminder of the euler equation for the future
-</section>
-
-<section data-markdown>
-
-What is $\vert 2+i \vert$?
-
-1. $1$
-2. $\sqrt{3}$
-3. $5$
-4. $\sqrt{5}$
-5. Something else!
-
-Note:
-* Correct Answer: D
-* Use pythagoras in the complex plane
-</section>
-
-<section data-markdown>
-
-What is $(1+i)^2/(1-i)$?
-
-1. $e^{i\pi/4}$
-2. $\sqrt{2}e^{i\pi/4}$
-3. $e^{i3\pi/4}$
-4. $\sqrt{2}e^{i3\pi/4}$
-5. Something else!
-
-Note:
-* Correct Answer: D
-* Best to convert to euler with phase and just use the rules for adding and subtracting of exponents
-
-</section>
-
-<section data-markdown>
-
 For the RL circuit with driving voltage of $V(t) = V_0 \cos (\omega t)$, we found a solution for the current as a function of time, with $I=0$ at $t=0$,
 
 $$I(t) = a \cos(\omega t + \phi) - a\cos(\phi) e^{-Rt/L}$$
