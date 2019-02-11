@@ -6,6 +6,42 @@ transition: slide
 
 <section data-markdown>
 
+Which point below best represents $4e^{i3\pi/4}$ on the complex plane?
+
+<img src="./images/complex_numbers_graph.png" align="center" style="width: 600px";/>
+
+Note:
+* Correct Answer: D
+
+</section>
+
+<section data-markdown>
+
+## Announcements
+* Quiz 3 (next Friday 2/22) - RLC circuits
+  * Solve a circuit problem using the phasor method
+  * Discuss limits on the response and how it might act as a filter
+
+</section>
+
+<section data-markdown>
+
+<img src="./images/RLC.png" align="right" style="width: 400px";/>
+What is the total impedance of this circuit, $Z_{total}$?
+
+1. $R + i\left(\omega L + \frac{1}{\omega C}\right)$
+2. $R + i\left(\omega L - \frac{1}{\omega C}\right)$
+3. $\frac{1}{R} + \frac{1}{i\omega L} + {i \omega C}$
+4.  $\dfrac{1}{\frac{1}{R} + \frac{1}{i\omega L} + {i \omega C}}$
+5. None of these
+
+Note:
+* Correct Answer: B
+
+</section>
+
+<section data-markdown>
+
 What is $Re\left[\frac{e^{i\omega t}}{1+i}\right]$?
 
 1. $\frac{1}{\sqrt{2}}\cos(\omega t + \pi/4)$
@@ -16,15 +52,6 @@ What is $Re\left[\frac{e^{i\omega t}}{1+i}\right]$?
 
 Note:
 * Correct Answer: B
-
-</section>
-
-<section data-markdown>
-
-## Announcements
-* Quiz 3 (next Friday 2/17) - RLC circuits
-  * Solve a circuit problem using the phasor method
-  * Discuss limits on the response and how it might act as a filter
 
 </section>
 
@@ -61,6 +88,44 @@ the voltage by 45 degrees?
 
 Note:
 * Correct Answer: B
+</section>
+
+<section data-markdown>
+
+Consider an RC circuit attached to a sinusoidally driven voltage source. If at $t=0$ we turn on the source, $I(t=0)=\frac{V_0}{R}$. Then the current follows this solution,
+
+$$I(t) = \dfrac{V_0}{\sqrt{R^2+\frac{1}{\omega^2C^2}}}\cos(\omega t + \phi) - \left(\dfrac{V_0}{R}-\dfrac{V_0\cos\phi}{\sqrt{R^2+\frac{1}{\omega^2C^2}}}\right)e^{-t/RC}$$
+
+What happens to the long term current as $\omega \rightarrow 0$?
+
+1. goes to zero
+2. goes to $\dfrac{V_0}{R}$
+3. goes to infinity
+4. Something else
+
+Note:
+* Correct answer: A
+
+
+</section>
+
+<section data-markdown>
+
+Consider an RC circuit attached to a sinusoidally driven voltage source. If at $t=0$ we turn on the source, $I(t=0)=\frac{V_0}{R}$. Then the current follows this solution,
+
+$$I(t) = \dfrac{V_0}{\sqrt{R^2+\frac{1}{\omega^2C^2}}}\cos(\omega t + \phi) - \left(\dfrac{V_0}{R}-\dfrac{V_0\cos\phi}{\sqrt{R^2+\frac{1}{\omega^2C^2}}}\right)e^{-t/RC}$$
+
+What happens to the long term current as $\omega \rightarrow \infty$?
+
+1. goes to zero
+2. goes to $\dfrac{V_0}{R}$
+3. goes to infinity
+4. Something else
+
+Note:
+* Correct answer: B
+
+
 </section>
 
 <section data-markdown>

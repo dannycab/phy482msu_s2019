@@ -13,6 +13,7 @@ permalink: notes/index.html
 * [04 - Faraday's Law](./handwritten/04-Faradays_Law.pdf)
 * [05 - Inductance](./handwritten/05-Inductance.pdf)
 * [06 - RLC Circuits](./handwritten/06-RLC.pdf)
+* [07 - Maxwell's Equations](./handwritten/07-Maxwell_Equations.pdf)
 
 ## Slides
 
@@ -26,3 +27,4 @@ permalink: notes/index.html
 * Lecture 8 (January 25th): Motional EMF II and Faraday's Law [[HTML]](./08-slides.html)[[PDF]](./08-slides.pdf)
 * Lecture 9 (February 1st): Faraday's Law and Inductance [[HTML]](./09-slides.html)[[PDF]](./09-slides.pdf)
 * Week 5 (February 4-8): Inductance and RLC Circuits [[HTML]](./10-slides.html)[[PDF]](./10-slides.pdf)
+* Lecture 13 (February 11th): Phasors [[HTML]](./13-slides.html)[[PDF]](./13-slides.pdf)

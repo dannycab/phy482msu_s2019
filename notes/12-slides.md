@@ -61,30 +61,3 @@ where $a = \frac{V_0}{\sqrt{R^2+L^2\omega^2}}$ and $\phi = \tan^{-1}(-L\omega/R)
 5. ???
 
 </section>
-
-<section data-markdown>
-
-Which point below best represents $4e^{i3\pi/4}$ on the complex plane?
-
-<img src="./images/complex_numbers_graph.png" align="center" style="width: 600px";/>
-
-Note:
-* Correct Answer: D
-
-</section>
-
-<section data-markdown>
-
-<img src="./images/RLC.png" align="right" style="width: 400px";/>
-What is the total impedance of this circuit, $Z_{total}$?
-
-1. $R + i\left(\omega L + \frac{1}{\omega C}\right)$
-2. $R + i\left(\omega L - \frac{1}{\omega C}\right)$
-3. $\frac{1}{R} + \frac{1}{i\omega L} + {i \omega C}$
-4.  $\dfrac{1}{\frac{1}{R} + \frac{1}{i\omega L} + {i \omega C}}$
-5. None of these
-
-Note:
-* Correct Answer: B
-
-</section>

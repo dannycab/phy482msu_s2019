@@ -26,6 +26,7 @@ use_math: true
 
 * [Inductance](./notes/handwritten/05-Inductance.pdf)
 * [RLC Circuits](./notes/handwritten/06-RLC.pdf)
+* [Maxwell's Equations](./notes/handwritten/07-Maxwell_Equations.pdf)
 * [Homework 5 (Due Fri. Feb. 15)](./assignments/homework5.html)
 
 ---
