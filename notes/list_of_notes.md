@@ -28,3 +28,4 @@ permalink: notes/index.html
 * Lecture 9 (February 1st): Faraday's Law and Inductance [[HTML]](./09-slides.html)[[PDF]](./09-slides.pdf)
 * Week 5 (February 4-8): Inductance and RLC Circuits [[HTML]](./10-slides.html)[[PDF]](./10-slides.pdf)
 * Lecture 13 (February 11th): Phasors [[HTML]](./13-slides.html)[[PDF]](./13-slides.pdf)
+* Lecture 14 (February 13th): Phasors II [[HTML]](./14-slides.html)[[PDF]](./14-slides.pdf)
