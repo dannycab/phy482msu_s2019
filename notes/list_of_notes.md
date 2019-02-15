@@ -29,3 +29,4 @@ permalink: notes/index.html
 * Week 5 (February 4-8): Inductance and RLC Circuits [[HTML]](./10-slides.html)[[PDF]](./10-slides.pdf)
 * Lecture 13 (February 11th): Phasors [[HTML]](./13-slides.html)[[PDF]](./13-slides.pdf)
 * Lecture 14 (February 13th): Phasors II [[HTML]](./14-slides.html)[[PDF]](./14-slides.pdf)
+* Lecture 15 (February 15th): Maxwell's Equations [[HTML]](./15-slides.html)[[PDF]](./15-slides.pdf)
