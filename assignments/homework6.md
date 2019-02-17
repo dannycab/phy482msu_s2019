@@ -1,7 +1,7 @@
 ---
 layout: homework
 use_math: true
-title: Homework 6 (Due. Feb 20)
+title: Homework 6 (Due. Feb 22)
 ---
 
 ## 1. Leading and Lagging Current
@@ -29,7 +29,7 @@ This parallel RLC circuit is driven by an AC voltage $V=V_0 \cos(\omega t)$.
 2. Using complex analysis (the phasor method) solve for the "true" current $I_{true}$ through the voltage source $I_{true} = Re\left[I\right]$.
 3. **Using a jupyter notebook**, graph the magnitude of the current I vs. frequency. At what frequency is the current at an extremum?
 
-**You will turn your notebook in using GitHub Classroom: [HW5Q2-RLCGraph](https://classroom.github.com/assignment-invitations/c70f82b174058c3c2838428f2ac5ec78)**
+**You will turn your notebook in using your GitHub repository.**
 
 ## 3. A Terminated Line Current
 
@@ -39,20 +39,21 @@ Consider a straight wire that runs from $z=-\infty$ to $z=0$ that has a steady c
 2. Determine the displacement current in terms of $I$. Think about how conservation of charge tells you about the relationship between $Q(t)$ and $I$.
 3. In part 2, you should have found a spherically symmetric result. Using Ampere's Law with a hemispherical cap (circular loop around the charge in the plane perpendicular to the long wire) in the positive z-direction, find the integral of $\oint \mathbf{B} \cdot d\mathbf{l}$.
 4. Using Ampere's Law with a hemispherical cap (circular loop around the charge in the plane perpendicular to the long wire) in the negative z-direction, find the integral of $\oint \mathbf{B} \cdot d\mathbf{l}$. Does this agree with part 3?
-5. **Bonus:** Find the resulting magnetic field everywhere in space. Did you remember the long wire? What loop and surfaces are you using to determine the magnetic field? Sketch a picture that makes it clear.
+5. Find the magnetic field everywhere in the plane (z=0) that intersects the line current.
+6. Find the resulting magnetic field everywhere in space. Did you remember the long wire? What loop and surfaces are you using to determine the magnetic field? Sketch a picture that makes it clear.
 
 
 ## 4. A Terminated Surface Current
 
-Consider a current with surface density $\mathbf{K} = -\vert K\vert\hat{x}$ that flows in a half-plane ($z=0$, $x>0$). The current results in an accumulation of charge on the line boundary of the half-plane. The goals of this problem is to find the magnetic field everywhere.
+Consider a current with surface density $\mathbf{K} = -\vert K\vert\hat{x}$ that flows in a half-plane ($z=0$, $x>0$). The current results in an accumulation of charge on the line boundary of the half-plane. The goal of this problem is to find the magnetic field everywhere.
 
 1. Determine the electric field produced by the charge buildup, for now you may use $\lambda(t)$.
 2. Determine the displacement current in terms of $\mathbf{K}$. Think about how conservation of charge tells you about the relationship between $\lambda(t)$ and $\mathbf{K}$.
-3. Find the resulting magnetic field everywhere in space. Did you remember the surface current? What loop and surfaces are you using to determine the magnetic field? Sketch a picture that makes it clear.
+3. **Bonus:** Find the resulting magnetic field everywhere in space. Did you remember the surface current? What loop and surfaces are you using to determine the magnetic field? Sketch a picture that makes it clear.
 
 ## 5. Project Problem - Building your paper III
 
-Last week, you built on your paper by adding to the summary that you wrote two weeks ago; filling it out with additional detail and responding to the feedback that you received. Like last week, you will be building and working towards finalizing a full draft of your paper. It doesn't have to be entirely done, that's what the next two weeks are for, but it should be getting close. Again, work to write something that is coherent and tells a complete story. Make sure that you think about the feedback that you received last week and the week before. Make sure you check it for spelling and grammar. This is your chance to really push out a good draft of your paper and get feedback from me before turining in the final project in two weeks.
+Last week, you built on your paper by adding to the summary that you wrote; filling it out with additional detail and responding to the feedback that you received. Like last week, you will be building and working towards finalizing a full draft of your paper. It doesn't have to be entirely done, that's what the next two weeks are for, but it should be getting close. Again, work to write something that is coherent and tells a complete story. Make sure that you think about the feedback that you received last week and the week before. Make sure you check it for spelling and grammar. This is your chance to really push out a good draft of your paper and get feedback from me before turning in the final project in next week.
 
 For this week, you should start thinking about:
 
@@ -60,6 +61,6 @@ For this week, you should start thinking about:
 * How can I dig deeper and explain in more detail what I've learned from the previous papers and the ones I'm reading currently?
 * What kind of feedback did I get about my previous summary and how do I improve on what I've done?
 
-**My aim for scaffolding your paper writing with these homework problems is to make the eventual paper that you turn in less stressful and to give you a chance to get feedback from me early on. So take this last chance seriously.**
+**My aim for scaffolding your paper writing with these homework problems is to make the eventual paper that you turn in less stressful and to give you a chance to get feedback from me early on.**
 
-**You will turn this question in using GitHub Classroom: [HW5Q5-BuildingYourPaper3](https://classroom.github.com/assignment-invitations/a92ca44da723fe1d4204803000e04105)**
+**You will turn this question in using your GitHub repository.**

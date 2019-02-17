@@ -14,6 +14,7 @@ permalink: notes/index.html
 * [05 - Inductance](./handwritten/05-Inductance.pdf)
 * [06 - RLC Circuits](./handwritten/06-RLC.pdf)
 * [07 - Maxwell's Equations](./handwritten/07-Maxwell_Equations.pdf)
+* [08 - Energy Conservation](./handwritten/08-Energy_Conservation.pdf)
 
 ## Slides
 
@@ -30,3 +31,4 @@ permalink: notes/index.html
 * Lecture 13 (February 11th): Phasors [[HTML]](./13-slides.html)[[PDF]](./13-slides.pdf)
 * Lecture 14 (February 13th): Phasors II [[HTML]](./14-slides.html)[[PDF]](./14-slides.pdf)
 * Lecture 15 (February 15th): Maxwell's Equations [[HTML]](./15-slides.html)[[PDF]](./15-slides.pdf)
+* Lecture 16 (February 18th): Displacement Current [[HTML]](./16-slides.html)[[PDF]](./16-slides.pdf)
