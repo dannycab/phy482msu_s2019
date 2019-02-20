@@ -32,3 +32,4 @@ permalink: notes/index.html
 * Lecture 14 (February 13th): Phasors II [[HTML]](./14-slides.html)[[PDF]](./14-slides.pdf)
 * Lecture 15 (February 15th): Maxwell's Equations [[HTML]](./15-slides.html)[[PDF]](./15-slides.pdf)
 * Lecture 16 (February 18th): Displacement Current [[HTML]](./16-slides.html)[[PDF]](./16-slides.pdf)
+* Lecture 17 (February 20th): Energy Conservation [[HTML]](./17-slides.html)[[PDF]](./17-slides.pdf)
