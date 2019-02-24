@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Homework 7 (Due. Feb 27)</title>
+  <title>Homework 7 (Due. Mar. 15)</title>
   <meta name="description" content="Website for Physics 482 - Electricity and Magnetism II at Michigan State University
 ">
 
@@ -174,7 +174,7 @@
       
       
         
-          <li><a href="/phy482msu_s2019/assignments/homework7.html">Homework 7 (Due. Feb 27)</a></li>
+          <li><a href="/phy482msu_s2019/assignments/homework7.html">Homework 7 (Due. Mar. 15)</a></li>
       
       
         
@@ -208,7 +208,7 @@
       
       
         
-          <li><a href="/phy482msu_s2019/assignments/project1.html">Project 1 (Due. Mar. 3)</a></li>
+          <li><a href="/phy482msu_s2019/assignments/project1.html">Project 1 (Due. Mar. 1)</a></li>
       
       
         
@@ -386,7 +386,7 @@
           
         
           
-          <a class="page-link" href="/phy482msu_s2019/assignments/homework7.html">Homework 7 (Due. Feb 27)</a>
+          <a class="page-link" href="/phy482msu_s2019/assignments/homework7.html">Homework 7 (Due. Mar. 15)</a>
           
         
           
@@ -420,7 +420,7 @@
           
         
           
-          <a class="page-link" href="/phy482msu_s2019/assignments/project1.html">Project 1 (Due. Mar. 3)</a>
+          <a class="page-link" href="/phy482msu_s2019/assignments/project1.html">Project 1 (Due. Mar. 1)</a>
           
         
           
@@ -449,9 +449,20 @@
 
       <div class="container well">
 
-        <h1 class="post-title">Homework 7 (Due. Feb 27)</h1>
+        <h1 class="post-title">Homework 7 (Due. Mar. 15)</h1>
           <div >
-    <h2 id="1-slowly-accumulating-charge">1. Slowly accumulating charge</h2>
+    <h2 id="1-energy-conservation">1. Energy conservation</h2>
+
+<p>Consider an infinitely long solenoid of radius $a$ that is at the center of a large resistive ring (turns per length $n$; radius $b$; resistance $R$), here $b \gg a$. The current in the solenoid varies with time, $I_s(t)$, such that an electric field is created everywhere in space and thus a current is driven in the wire. In this problem, you will show that the power dissipated in the resistive wire is equal to the integral of the Poynting vector over the outside surface of the solenoid.</p>
+
+<ol>
+  <li>In our discussion of energy conservation, $(\dfrac{dU_{mech}}{dt} + \dfrac{dU_{em}}{dt} = - \iint \mathbf{S} \cdot d\mathbf{A})$, we found we needed to pick a system. What system is appropriate to choose when considering the power dissipatedin the resistive wire? What does that tell you about the energy trasnported by the surroundings? That is, what is transporting energy into the resistive wire?</li>
+  <li>There is a nonzero $\mathbf{S}$ as there is energy dissipated in the wire. What are the relevant electric and magnetic fields that contribute to this nonzero $\mathbf{S}$? Determine the direction of $\mathbf{S}$ in this case.</li>
+  <li>By considering the limit of a very small radius solenoid, show that the magnitude of the power transported across the boundary of a cylinder encapsulating the solenoid is $(\pi \mu_0a^2 n\dfrac{dI_s}{dt})I_r$ where $I_r$ is the current in the resistive ring.</li>
+  <li>Show that the result above is equal to the power dissipated in the resistive wire. How does this result fit with our statement of energy conservation, $(\dfrac{dU_{mech}}{dt} + \dfrac{dU_{em}}{dt} = - \iint \mathbf{S} \cdot d\mathbf{A})$?</li>
+</ol>
+
+<h2 id="2-slowly-accumulating-charge">2. Slowly accumulating charge</h2>
 
 <p>Consider a volume current that is (very slowly) flowing towards the $z$-axis,</p>
 
@@ -466,7 +477,7 @@
   <li>Discuss your results in the context of conservation of energy. Which aspects of the energy are increasing/decreasing? What are you defining as the region of interest?</li>
 </ol>
 
-<h2 id="2-charging-capacitor">2. Charging Capacitor</h2>
+<h2 id="3-charging-capacitor">3. Charging Capacitor</h2>
 
 <p><img src="/phy482msu_s2019/assignments/images/hw7/cap_and_rim.png" alt="cap" /></p>
 
@@ -478,7 +489,7 @@
   <li>Show that the rate at which the capacitor’s stored energy is increasing $dU/ dt$ is equal to the rate at which field energy is entering through the rim: $\iint \mathbf{S}\cdot d\mathbf{A}$.</li>
 </ol>
 
-<h2 id="3-poynting-vector-of-a-solenoid">3. Poynting Vector of a Solenoid</h2>
+<h2 id="4-poynting-vector-of-a-solenoid">4. Poynting Vector of a Solenoid</h2>
 
 <p>Consider a very long solenoid of length $L$, radius $r$, and turns per length $n$. The current $I$ in the solenoid is linearly ramped from $I=0$ to $I=I_0$ over a period $t_0$ as shown in the graph.</p>
 
@@ -491,7 +502,7 @@
   <li>Show that the total field energy/time passing from the walls of the solenoid into its interior, when integrated from $t = 0$ to $t = t_0$, gives the same total energy as you computed in part 1.</li>
 </ol>
 
-<h2 id="4-energy-flow-in-a-coax">4. Energy flow in a coax</h2>
+<h2 id="5-energy-flow-in-a-coax">5. Energy flow in a coax</h2>
 
 <p>We now want to investigate energy flow in a cylindrical coax cable. For now, let’s just look at fields constant in time, not varying in time. Assume that constant current $I$ flows in the $+z$ direction on the inner wire and that total current $I$ flows in the opposite direction in the shell. Also assume that there is a constant voltage difference $V$ between the wire and the shell, as shown.</p>
 
@@ -504,11 +515,31 @@
   <li>Integrate this flux through the cross sectional area of the coax to find the power transported down the coax line. Does your answer make sense relative to the circuit maintaining the current and voltage? Briefly comment!</li>
 </ol>
 
-<h2 id="5-project-problem---constructing-an-abstract">5. Project Problem - Constructing an Abstract</h2>
+<h2 id="6-paired-project-problem---starting-your-pair-project">6. Paired Project Problem - Starting your pair project</h2>
 
-<p>You have completed a full draft of your paper. Now it’s time to write an abstract for this paper. An abstract summarizes your entire paper in a single paragraph. It should be self-contained and describe the entire paper in just a few sentences.</p>
+<p>This second project can (but doesn’t have to) build on the project you just complted. It is a team project that you will complete with a partner. This project is meant to mimic the common practice of poster preparation and presentation. In a nutshell, you will conduct an original modeling project where you analytically and computationally model some E&amp;M phenomenon of your choosing, prepare a poster of the project, and present it to your classmates and me. In working on this project, you will be trying to answer the following questions:</p>
 
-<p><strong>You will turn your abstract in using GitHub Classroom: <a href="https://classroom.github.com/assignment-invitations/0b336501655b70a3d1aa7a0fba1ecb31">HW7Q5-Abstract</a></strong></p>
+<ul>
+  <li>What is the area of E&amp;M that you are doing research on?</li>
+  <li>What are the questions that you are trying to answer about this area?</li>
+  <li>What theoretical models can be used to answer those questions?</li>
+  <li>What analytical and computational work did you do to answer those questions?</li>
+  <li>What were the resulting predictions that your work produced?</li>
+  <li>What are the limitations of what you have done? * What are some remaining open questions?</li>
+  <li>What did each member of your pair contribute?</li>
+</ul>
+
+<p>There will be six homework problems to help scaffold your work and poster development. In this first homework problem, you and your partner will write up a single document that answers the following questions:</p>
+
+<ul>
+  <li>Who are the partners in this team?</li>
+  <li>What are you and your partner proposing to do?</li>
+  <li>What area of E&amp;M will you be conducting original calculations for?</li>
+  <li>What source material are you drawing from?</li>
+  <li>What has been done so far and what are you going to do? It’s ok if it’s a solved problem, but you will need to reproduce what has been done and extend it beyond what your reference material offers.</li>
+</ul>
+
+<p><strong>As usual, you will turn in this document using GitHub.</strong></p>
 
   </div>
 

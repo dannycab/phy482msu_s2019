@@ -15,6 +15,7 @@ permalink: notes/index.html
 * [06 - RLC Circuits](./handwritten/06-RLC.pdf)
 * [07 - Maxwell's Equations](./handwritten/07-Maxwell_Equations.pdf)
 * [08 - Energy Conservation](./handwritten/08-Energy_Conservation.pdf)
+* [09 - Introduction to Waves](./handwritten/09-Introduction_to_waves.pdf)
 
 ## Slides
 

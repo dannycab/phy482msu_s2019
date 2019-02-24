@@ -5,6 +5,25 @@ permalink: calendar.html
 use_math: true
 ---
 
+### Week 8 - Introduction to Waves
+
+#### Pre-class Videos
+
+* [Introduction to Waves](https://youtu.be/UP812tC4ajU)
+* [Sinusoidal Traveling Waves](https://youtu.be/Z-qj3xyTqos)
+* [Three-dimensional Waves](https://youtu.be/ohdN8F-J_MM)
+
+#### Reading
+
+* Read my notes
+* Read Griffith's Chapter 9.1.1 and 9.1.2
+
+#### Notes and Homework
+
+* [Introduction to Waves](./notes/handwritten/09-Introduction_to_waves.pdf)
+* [Project 1 (Due Fri. Mar. 1)](./assignments/project1.html)
+* [Homework 7 (Due Fri. Mar. 16)](./assignments/homework7.html)
+
 ### Week 7 - Maxwell's Correction to Ampere's Law and Conservation Laws
 
 We are likely to continue conservation laws next week.
