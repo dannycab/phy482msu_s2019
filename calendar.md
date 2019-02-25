@@ -49,7 +49,7 @@ We are likely to continue conservation laws next week.
 #### Notes and Homework
 
 * [Maxwell's Equations](./notes/handwritten/07-Maxwell_Equations.pdf)
-* [Energy Conservation](./notes/handwritten/08-Energy_Conservation.pdf)
+* [Conservation Laws](./notes/handwritten/08-Conservation_Laws.pdf)
 * [Homework 6 (Due Fri. Feb. 22)](./assignments/homework6.html)
 
 ---

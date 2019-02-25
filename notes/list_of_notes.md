@@ -14,7 +14,7 @@ permalink: notes/index.html
 * [05 - Inductance](./handwritten/05-Inductance.pdf)
 * [06 - RLC Circuits](./handwritten/06-RLC.pdf)
 * [07 - Maxwell's Equations](./handwritten/07-Maxwell_Equations.pdf)
-* [08 - Energy Conservation](./handwritten/08-Energy_Conservation.pdf)
+* [08 - Conservation Laws](./handwritten/08-Conservation_Laws.pdf)
 * [09 - Introduction to Waves](./handwritten/09-Introduction_to_waves.pdf)
 
 ## Slides
@@ -35,3 +35,4 @@ permalink: notes/index.html
 * Lecture 16 (February 18th): Displacement Current [[HTML]](./16-slides.html)[[PDF]](./16-slides.pdf)
 * Lecture 17 (February 20th): Energy Conservation [[HTML]](./17-slides.html)[[PDF]](./17-slides.pdf)
 * Lecture 18 (February 22nd): Energy Conservation Examples [[HTML]](./18-slides.html)[[PDF]](./18-slides.pdf)
+* Lecture 19 (February 25th): Conservation Theorems [[HTML]](./19-slides.html)[[PDF]](./19-slides.pdf)
