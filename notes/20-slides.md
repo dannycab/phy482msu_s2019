@@ -6,6 +6,65 @@ transition: slide
 
 <section data-markdown>
 
+<img src="./images/wire_at_perp_angles.png" align="right" style="width: 400px";/>
+
+
+Two short lengths of wire carry currents as shown. (The current is supplied by discharging a capacitor.) The diagram shows the direction of the force on wire 1 due to wire 2.
+
+What is the direction of the force on wire 2 due to wire 1?
+1. Right
+2. Left
+3. Up
+4. Down
+
+Note:
+* Correct Answer: A
+
+</section>
+
+<section data-markdown>
+
+Consider a charged capacitor placed in a uniform B field
+in the $+y$ direction. $z$ points along the capacitor axis, so that $x$ points upward.
+
+<img src="./images/cap_w_B_momentum.png" align="left" style="width: 250px";/>
+
+Which way does the stored field momentum in this system point?
+
+1. $\pm \hat{x}$
+2. $\pm \hat{y}$
+3. $\pm \hat{z}$
+4. Zero!
+
+Note:
+* Correct Answer: A
+
+</section>
+
+<section data-markdown>
+
+Now "short out" this capacitor with a small wire.
+As the current flows, (while the capacitor is discharging)...
+
+<img src="./images/cap_w_short.png" align="left" style="width: 250px";/>
+
+
+which way does the magnetic force
+push the wire (and thus, the system)?
+
+1. $\pm \hat{x}$
+2. $\pm \hat{y}$
+3. $\pm \hat{z}$
+4. Zero!
+
+Note:
+* Correct Answer: A
+
+
+</section>
+
+<section data-markdown>
+
 <img src="./images/feynman_rotator.png" align="right" style="width: 250px";/>
 
 Feynman’s Paradox:
@@ -50,18 +109,6 @@ Does the Feynman device violate Conservation of Angular Momentum?
 
 Note:
 * Correct Answer: B
-</section>
-
-<section data-markdown>
-
-## Announcements
-
-* Quiz Friday (Maxwell Ampere + Poynting Vector)
-  * Determine the electric and magnetic field in a situation where there is a displacement current
-  * Discuss the direction of the Poynting vector and how it relates to conservation of energy
-* Your papers are due Friday (3/3) by 5pm (20% of your grade BTW)
-    * As usual, you will use GitHub to turn them in.
-
 </section>
 
 <section data-markdown>
