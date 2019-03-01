@@ -37,3 +37,4 @@ permalink: notes/index.html
 * Lecture 18 (February 22nd): Energy Conservation Examples [[HTML]](./18-slides.html)[[PDF]](./18-slides.pdf)
 * Lecture 19 (February 25th): Conservation Theorems [[HTML]](./19-slides.html)[[PDF]](./19-slides.pdf)
 * Lecture 20 (February 27th): Conservation Theorems II [[HTML]](./20-slides.html)[[PDF]](./20-slides.pdf)
+* Lecture 21 (March 1st): Mechanical Waves [[HTML]](./21-slides.html)[[PDF]](./21-slides.pdf)
