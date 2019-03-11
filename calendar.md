@@ -5,6 +5,21 @@ permalink: calendar.html
 use_math: true
 ---
 
+
+### Week 9 Introduction to EM Waves
+
+#### Reading
+
+* Read my notes
+* Read Griffith's Chapter 9.1.3 through 9.2.2
+
+#### Notes and Homework
+
+* [Electromagnetic Waves](./notes/handwritten/10-Electromagnetic_waves.pdf)
+* [Homework 7 (Due Fri. Mar. 16)](./assignments/homework7.html)
+
+---
+
 ### Week 8 - Introduction to Waves
 
 #### Pre-class Videos

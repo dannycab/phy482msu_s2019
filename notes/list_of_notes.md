@@ -16,6 +16,7 @@ permalink: notes/index.html
 * [07 - Maxwell's Equations](./handwritten/07-Maxwell_Equations.pdf)
 * [08 - Conservation Laws](./handwritten/08-Conservation_Laws.pdf)
 * [09 - Introduction to Waves](./handwritten/09-Introduction_to_waves.pdf)
+* [10 - Introduction to EM Waves](./handwritten/10-Electromagnetic_waves.pdf)
 
 ## Slides
 
@@ -38,3 +39,4 @@ permalink: notes/index.html
 * Lecture 19 (February 25th): Conservation Theorems [[HTML]](./19-slides.html)[[PDF]](./19-slides.pdf)
 * Lecture 20 (February 27th): Conservation Theorems II [[HTML]](./20-slides.html)[[PDF]](./20-slides.pdf)
 * Lecture 21 (March 1st): Mechanical Waves [[HTML]](./21-slides.html)[[PDF]](./21-slides.pdf)
+* Lecture 22 (March 11th): Introduction to EM Waves [[HTML]](./22-slides.html)[[PDF]](./22-slides.pdf)
