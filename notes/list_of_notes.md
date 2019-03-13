@@ -40,3 +40,4 @@ permalink: notes/index.html
 * Lecture 20 (February 27th): Conservation Theorems II [[HTML]](./20-slides.html)[[PDF]](./20-slides.pdf)
 * Lecture 21 (March 1st): Mechanical Waves [[HTML]](./21-slides.html)[[PDF]](./21-slides.pdf)
 * Lecture 22 (March 11th): Introduction to EM Waves [[HTML]](./22-slides.html)[[PDF]](./22-slides.pdf)
+* Lecture 23 (March 13th): EM Waves [[HTML]](./23-slides.html)[[PDF]](./23-slides.pdf)
