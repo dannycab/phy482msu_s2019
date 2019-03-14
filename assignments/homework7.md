@@ -6,13 +6,15 @@ title: Homework 7 (Due. Mar. 15)
 
 ## 1. Energy conservation
 
-Consider an infinitely long solenoid of radius $a$ that is at the center of a large resistive ring (turns per length $n$; radius $b$; resistance $R$), here $b \gg a$. The current in the solenoid varies with time, $I_s(t)$, such that an electric field is created everywhere in space and thus a current is driven in the wire. In this problem, you will show that the power dissipated in the resistive wire is equal to the integral of the Poynting vector over the outside surface of the solenoid.
+Consider an infinitely long solenoid (turns per length $n$) of radius $a$ that is at the center of a large resistive ring (radius $b$; resistance $R$), here $b \gg a$. The current in the solenoid varies with time, $I_s(t)$, such that an electric field is created everywhere in space and thus a current is driven in the wire. In this problem, you will show that the power dissipated in the resistive wire is equal to the integral of the Poynting vector over the outside surface of the solenoid.
 
-1. In our discussion of energy conservation, $(\dfrac{dU_{mech}}{dt} + \dfrac{dU_{em}}{dt} = - \iint \mathbf{S} \cdot d\mathbf{A})$, we found we needed to pick a system. What system is appropriate to choose when considering the power dissipatedin the resistive wire? What does that tell you about the energy trasnported by the surroundings? That is, what is transporting energy into the resistive wire?
-2. There is a nonzero $\mathbf{S}$ as there is energy dissipated in the wire. What are the relevant electric and magnetic fields that contribute to this nonzero $\mathbf{S}$? Determine the direction of $\mathbf{S}$ in this case.
-3. By considering the limit of a very small radius solenoid, show that the magnitude of the power transported across the boundary of a cylinder encapsulating the solenoid is $(\pi \mu_0a^2 n\dfrac{dI_s}{dt})I_r$ where $I_r$ is the current in the resistive ring.
-4. Show that the result above is equal to the power dissipated in the resistive wire. How does this result fit with our statement of energy conservation, $(\dfrac{dU_{mech}}{dt} + \dfrac{dU_{em}}{dt} = - \iint \mathbf{S} \cdot d\mathbf{A})$?
-
+1. Consider first the EMF produced by the changing magnetic field. Determine the EMF and show that the current running through the resistive ring, $I_r$, is $-\frac{1}{R}\mu_0 n \pi a^2 \dfrac{dI_s}{dt}$.
+2. Next, use Faraday's Law to find the curly electric field just outside the solenoid (this is the field responsible for driving the current in the ring). Which direction is that electric field?
+3. The ring produces it's own magnetic field. If we assume the solenoid is very small, we can say that the magnetic field produced by that ring at the location of the solenoid is nearly like that of a loop of wire at it's center. Derive or look up that magnetic field. Which way does it point?
+4. In our discussion of energy conservation, $(\dfrac{dU_{mech}}{dt} + \dfrac{dU_{em}}{dt} = - \iint \mathbf{S} \cdot d\mathbf{A})$, we found we needed to pick a system. What system is appropriate to choose when considering the power dissipated in the resistive ring? What does that tell you about the energy transported by the surroundings? That is, which fields are transporting energy into the resistive wire?
+5. Find the Poynting vector $\mathbf{S}$ based on the relevant electric and magnetic field in part 4. Show that the resulting Poynting vector is of magnitude $\dfrac{1}{4}\mu_0 I_r \dfrac{dI_s}{dt} \dfrac{ab^2n}{(b^2+z^2)^{3/2}}$. Which direction does it point?
+6. Finally show by integrating $\mathbf{S}$ over the whole outside surface of the solenoid (recall it is small compared to the ring, so the Poynting vector you found above is valid), that you recover $P = I_r^2 R$.
+7. 
 ## 2. Slowly accumulating charge
 
 Consider a volume current that is (very slowly) flowing towards the $z$-axis,
