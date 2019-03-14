@@ -14,7 +14,8 @@ Consider an infinitely long solenoid (turns per length $n$) of radius $a$ that i
 4. In our discussion of energy conservation, $(\dfrac{dU_{mech}}{dt} + \dfrac{dU_{em}}{dt} = - \iint \mathbf{S} \cdot d\mathbf{A})$, we found we needed to pick a system. What system is appropriate to choose when considering the power dissipated in the resistive ring? What does that tell you about the energy transported by the surroundings? That is, which fields are transporting energy into the resistive wire?
 5. Find the Poynting vector $\mathbf{S}$ based on the relevant electric and magnetic field in part 4. Show that the resulting Poynting vector is of magnitude $\dfrac{1}{4}\mu_0 I_r \dfrac{dI_s}{dt} \dfrac{ab^2n}{(b^2+z^2)^{3/2}}$. Which direction does it point?
 6. Finally show by integrating $\mathbf{S}$ over the whole outside surface of the solenoid (recall it is small compared to the ring, so the Poynting vector you found above is valid), that you recover $P = I_r^2 R$.
-7. 
+
+
 ## 2. Slowly accumulating charge
 
 Consider a volume current that is (very slowly) flowing towards the $z$-axis,
