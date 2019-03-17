@@ -5,6 +5,26 @@ permalink: calendar.html
 use_math: true
 ---
 
+### Week 10 Waves in Matter
+
+
+#### Pre-class Videos
+
+* [EM Waves in Matter](https://www.youtube.com/watch?v=RdX_8bHKOQg)
+* [Reflection and Transmission at Material Boundaries](https://www.youtube.com/watch?v=8fFgqELTIMY)
+
+#### Reading
+
+* Read my notes
+* Read Griffith's Chapter 9.3.1 through 9.3.3
+
+#### Notes and Homework
+
+* [Electromagnetic Waves in Matter](./handwritten-notes/11-EM_Waves_in_Matter.pdf)
+* [Reflection and Transmission](./handwritten-notes/12-Reflection_and_Transmission.pdf)
+* [Homework 8 (Due Fri. Mar. 22)](./assignments/homework8.html)
+
+---
 
 ### Week 9 Introduction to EM Waves
 

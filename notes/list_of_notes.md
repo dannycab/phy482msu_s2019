@@ -17,6 +17,8 @@ permalink: notes/index.html
 * [08 - Conservation Laws](./handwritten/08-Conservation_Laws.pdf)
 * [09 - Introduction to Waves](./handwritten/09-Introduction_to_waves.pdf)
 * [10 - Introduction to EM Waves](./handwritten/10-Electromagnetic_waves.pdf)
+* [11 - Waves in Matter](./handwritten/11-EM_Waves_in_Matter.pdf)
+* [12 - Reflection and Transmission](./handwritten/12-Reflection_and_Transmission.pdf)
 
 ## Slides
 
@@ -41,3 +43,5 @@ permalink: notes/index.html
 * Lecture 21 (March 1st): Mechanical Waves [[HTML]](./21-slides.html)[[PDF]](./21-slides.pdf)
 * Lecture 22 (March 11th): Introduction to EM Waves [[HTML]](./22-slides.html)[[PDF]](./22-slides.pdf)
 * Lecture 23 (March 13th): EM Waves [[HTML]](./23-slides.html)[[PDF]](./23-slides.pdf)
+* (March 15th): Whole Class Discussion about Department
+* Lecture 24 (March 18th): Momentum and Energy of EM Waves [[HTML]](./24-slides.html)[[PDF]](./24-slides.pdf)

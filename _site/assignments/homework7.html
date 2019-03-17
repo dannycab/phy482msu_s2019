@@ -178,7 +178,7 @@
       
       
         
-          <li><a href="/phy482msu_s2019/assignments/homework8.html">Homework 8 (Due. Mar 13)</a></li>
+          <li><a href="/phy482msu_s2019/assignments/homework8.html">Homework 8 (Due. Mar 22)</a></li>
       
       
         
@@ -390,7 +390,7 @@
           
         
           
-          <a class="page-link" href="/phy482msu_s2019/assignments/homework8.html">Homework 8 (Due. Mar 13)</a>
+          <a class="page-link" href="/phy482msu_s2019/assignments/homework8.html">Homework 8 (Due. Mar 22)</a>
           
         
           
@@ -453,13 +453,15 @@
           <div >
     <h2 id="1-energy-conservation">1. Energy conservation</h2>
 
-<p>Consider an infinitely long solenoid of radius $a$ that is at the center of a large resistive ring (turns per length $n$; radius $b$; resistance $R$), here $b \gg a$. The current in the solenoid varies with time, $I_s(t)$, such that an electric field is created everywhere in space and thus a current is driven in the wire. In this problem, you will show that the power dissipated in the resistive wire is equal to the integral of the Poynting vector over the outside surface of the solenoid.</p>
+<p>Consider an infinitely long solenoid (turns per length $n$) of radius $a$ that is at the center of a large resistive ring (radius $b$; resistance $R$), here $b \gg a$. The current in the solenoid varies with time, $I_s(t)$, such that an electric field is created everywhere in space and thus a current is driven in the wire. In this problem, you will show that the power dissipated in the resistive wire is equal to the integral of the Poynting vector over the outside surface of the solenoid.</p>
 
 <ol>
-  <li>In our discussion of energy conservation, $(\dfrac{dU_{mech}}{dt} + \dfrac{dU_{em}}{dt} = - \iint \mathbf{S} \cdot d\mathbf{A})$, we found we needed to pick a system. What system is appropriate to choose when considering the power dissipatedin the resistive wire? What does that tell you about the energy trasnported by the surroundings? That is, what is transporting energy into the resistive wire?</li>
-  <li>There is a nonzero $\mathbf{S}$ as there is energy dissipated in the wire. What are the relevant electric and magnetic fields that contribute to this nonzero $\mathbf{S}$? Determine the direction of $\mathbf{S}$ in this case.</li>
-  <li>By considering the limit of a very small radius solenoid, show that the magnitude of the power transported across the boundary of a cylinder encapsulating the solenoid is $(\pi \mu_0a^2 n\dfrac{dI_s}{dt})I_r$ where $I_r$ is the current in the resistive ring.</li>
-  <li>Show that the result above is equal to the power dissipated in the resistive wire. How does this result fit with our statement of energy conservation, $(\dfrac{dU_{mech}}{dt} + \dfrac{dU_{em}}{dt} = - \iint \mathbf{S} \cdot d\mathbf{A})$?</li>
+  <li>Consider first the EMF produced by the changing magnetic field. Determine the EMF and show that the current running through the resistive ring, $I_r$, is $-\frac{1}{R}\mu_0 n \pi a^2 \dfrac{dI_s}{dt}$.</li>
+  <li>Next, use Faraday’s Law to find the curly electric field just outside the solenoid (this is the field responsible for driving the current in the ring). Which direction is that electric field?</li>
+  <li>The ring produces it’s own magnetic field. If we assume the solenoid is very small, we can say that the magnetic field produced by that ring at the location of the solenoid is nearly like that of a loop of wire at it’s center. Derive or look up that magnetic field. Which way does it point?</li>
+  <li>In our discussion of energy conservation, $(\dfrac{dU_{mech}}{dt} + \dfrac{dU_{em}}{dt} = - \iint \mathbf{S} \cdot d\mathbf{A})$, we found we needed to pick a system. What system is appropriate to choose when considering the power dissipated in the resistive ring? What does that tell you about the energy transported by the surroundings? That is, which fields are transporting energy into the resistive wire?</li>
+  <li>Find the Poynting vector $\mathbf{S}$ based on the relevant electric and magnetic field in part 4. Show that the resulting Poynting vector is of magnitude $\dfrac{1}{4}\mu_0 I_r \dfrac{dI_s}{dt} \dfrac{ab^2n}{(b^2+z^2)^{3/2}}$. Which direction does it point?</li>
+  <li>Finally show by integrating $\mathbf{S}$ over the whole outside surface of the solenoid (recall it is small compared to the ring, so the Poynting vector you found above is valid), that you recover $P = I_r^2 R$.</li>
 </ol>
 
 <h2 id="2-slowly-accumulating-charge">2. Slowly accumulating charge</h2>
