@@ -45,3 +45,4 @@ permalink: notes/index.html
 * Lecture 23 (March 13th): EM Waves [[HTML]](./23-slides.html)[[PDF]](./23-slides.pdf)
 * (March 15th): Whole Class Discussion about Department
 * Lecture 24 (March 18th): Momentum and Energy of EM Waves [[HTML]](./24-slides.html)[[PDF]](./24-slides.pdf)
+* Lecture 25 (March 20th): EM Waves in Matter [[HTML]](./25-slides.html)[[PDF]](./25-slides.pdf)
