@@ -5,6 +5,23 @@ permalink: calendar.html
 use_math: true
 ---
 
+
+### Week 11 Reflection and Transmission; Introduction to Waves in Metals
+
+#### Reading
+
+* Read my notes
+* Read Griffith's Chapter 9.4.1 through 9.4.3
+
+#### Notes and Homework
+
+* [Electromagnetic Waves in Matter](./notes/handwritten/11-EM_Waves_in_Matter.pdf)
+* [Reflection and Transmission](./notes/handwritten/12-Reflection_and_Transmission.pdf)
+* [Electromagnetic Waves in Conductors](./notes/handwritten/13-EM_Waves_in_Conductors.pdf)
+* [Homework 9 (Due Fri. Mar. 29)](./assignments/homework9.html)
+
+---
+
 ### Week 10 Waves in Matter
 
 
@@ -20,8 +37,8 @@ use_math: true
 
 #### Notes and Homework
 
-* [Electromagnetic Waves in Matter](./handwritten-notes/11-EM_Waves_in_Matter.pdf)
-* [Reflection and Transmission](./handwritten-notes/12-Reflection_and_Transmission.pdf)
+* [Electromagnetic Waves in Matter](./notes/handwritten/11-EM_Waves_in_Matter.pdf)
+* [Reflection and Transmission](./notes/handwritten/12-Reflection_and_Transmission.pdf)
 * [Homework 8 (Due Fri. Mar. 22)](./assignments/homework8.html)
 
 ---
