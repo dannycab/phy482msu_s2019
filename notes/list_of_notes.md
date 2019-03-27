@@ -49,3 +49,4 @@ permalink: notes/index.html
 * Lecture 25 (March 20th): EM Waves in Matter [[HTML]](./25-slides.html)[[PDF]](./25-slides.pdf)
 * Lecture 26 (March 22nd): Reflection and Transmission in Matter [[HTML]](./26-slides.html)[[PDF]](./26-slides.pdf)
 * Lecture 27 (March 25th): Normal and Oblique Incidence [[HTML]](./27-slides.html)[[PDF]](./27-slides.pdf)
+* Lecture 28 (March 27th): Oblique Incidence [[HTML]](./28-slides.html)[[PDF]](./28-slides.pdf)
