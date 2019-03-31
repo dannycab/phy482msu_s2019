@@ -6,6 +6,23 @@ use_math: true
 ---
 
 
+
+### Week 12 Electromagnetic Waves in Conductors
+
+#### Reading
+
+* Read my notes
+* Read Griffith's Chapter 9.4.1 through 9.4.3
+
+#### Notes and Homework
+
+* [Electromagnetic Waves in Conductors](./notes/handwritten/13-EM_Waves_in_Conductors.pdf)
+* [Dispersion](./notes/handwritten/14-Dispersion.pdf)
+* [Homework 10 (Due Fri. Apr. 5)](./assignments/homework10.html)
+
+
+---
+
 ### Week 11 Reflection and Transmission; Introduction to Waves in Metals
 
 #### Reading
@@ -17,7 +34,6 @@ use_math: true
 
 * [Electromagnetic Waves in Matter](./notes/handwritten/11-EM_Waves_in_Matter.pdf)
 * [Reflection and Transmission](./notes/handwritten/12-Reflection_and_Transmission.pdf)
-* [Electromagnetic Waves in Conductors](./notes/handwritten/13-EM_Waves_in_Conductors.pdf)
 * [Homework 9 (Due Fri. Mar. 29)](./assignments/homework9.html)
 
 ---

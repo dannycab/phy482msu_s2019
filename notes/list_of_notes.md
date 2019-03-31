@@ -20,6 +20,7 @@ permalink: notes/index.html
 * [11 - Waves in Matter](./handwritten/11-EM_Waves_in_Matter.pdf)
 * [12 - Reflection and Transmission](./handwritten/12-Reflection_and_Transmission.pdf)
 * [13 - Electromagnetic Waves in Conductors](./handwritten/13-EM_Waves_in_Conductors.pdf)
+* [14 - Disperson](./handwritten/14-Dispersion.pdf)
 
 ## Slides
 
@@ -50,3 +51,5 @@ permalink: notes/index.html
 * Lecture 26 (March 22nd): Reflection and Transmission in Matter [[HTML]](./26-slides.html)[[PDF]](./26-slides.pdf)
 * Lecture 27 (March 25th): Normal and Oblique Incidence [[HTML]](./27-slides.html)[[PDF]](./27-slides.pdf)
 * Lecture 28 (March 27th): Oblique Incidence [[HTML]](./28-slides.html)[[PDF]](./28-slides.pdf)
+* Lecture 29 (March 29th): Oblique Incidence II [[HTML]](./29-slides.html)[[PDF]](./29-slides.pdf)
+* Lecture 30 (April 1st): EM Waves in Conductors [[HTML]](./30-slides.html)[[PDF]](./30-slides.pdf)

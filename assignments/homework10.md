@@ -1,7 +1,7 @@
 ---
 layout: homework
 use_math: true
-title: Homework 10 (Due. Mar 27)
+title: Homework 10 (Due. Apr. 5)
 ---
 
 ## 1. Different kinds of conductors
@@ -30,12 +30,12 @@ Sketch this function, Roughly what range of wavevectors $\Delta k$ contribute si
 4. Describe $f(x,t)$ physically as best you can. How is the $x$-width, $\Delta x$ of the "wavepacket" related to the $k$-width $\Delta k$? Does this relationship between $\Delta x$ and $\Delta k$ remind you of anything from quantum mechanics (PHY 215 or 471)?
 5. Pick a visible wavelength, and plot, using Jupyter, a Gaussian pulse that lasts 1 femtosecond. (When I say plot, I'm thinking of $Re[f(x,t=0)]$, and then think about what happens as time goes by) Try to get as many details reasonably correct as you can.
 
-**As usual, you will turn part 5 in using GitHub: [HW10Q2-PlottingPulse](https://classroom.github.com/assignment-invitations/78f31f7b599724d4b350ee362df545e2)**
+**As usual, you will turn part 5 in using your GitHub repo**
 
 ## 3. Paired Project Problem
 
-1. Read the feedback that you received on your plan and think about how you and your partner are going to work through your new plan.
-2. Project work - Provide a detailed explanation of the models and theoretical calculations needed to set up your work. The produce that you produce for this should be presented as a "graphic" that would appear in a poster under "background or model."
+1. Read the feedback that you received on your figure/models and think about how you and your partner are going to work through these details.
+2. Project work - Provide some sample calculations and figures produced by your code. This can be a notebook (Jupyter), but the work needs to be explained inline (i.e., what are you doing and why?). This is the work that is the meat of your original contribution. It need not be complete yet.
 3. Self-reflection - Think about how the project is going and how you are both contributing. Write out a document for the last couple of weeks worth of work inclduing this one that describes: Who did what? Hoes does it feel like the contributions for the members of your pair are equal? Regarding the project specifically, what questions do you need to answer to continue to move forward and what help do you need from me or others?
 
-You will turn in both your "graphic" and your self-reflection using the same GitHub repository you started for Project 2. **Make sure that you sync your repository first to get the new feedback!**
+You will turn in both your "notebook" and your self-reflection using the same GitHub repository you started for Project 2. **Make sure that you sync your repository first to get the new feedback!**
