@@ -53,3 +53,4 @@ permalink: notes/index.html
 * Lecture 28 (March 27th): Oblique Incidence [[HTML]](./28-slides.html)[[PDF]](./28-slides.pdf)
 * Lecture 29 (March 29th): Oblique Incidence II [[HTML]](./29-slides.html)[[PDF]](./29-slides.pdf)
 * Lecture 30 (April 1st): EM Waves in Conductors [[HTML]](./30-slides.html)[[PDF]](./30-slides.pdf)
+* Lecture 31 (April 3rd): EM Waves in Conductors II [[HTML]](./31-slides.html)[[PDF]](./31-slides.pdf)
