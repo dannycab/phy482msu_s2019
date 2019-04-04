@@ -6,7 +6,7 @@ title: Homework 10 (Due. Apr. 5)
 
 ## 1. Different kinds of conductors
 
-In Griffiths (and in class), we derived equations for EM waves in conductors, assuming a "good conductor." Interestingly, it turns out that the formulas we got can be pushed a good deal further than you might naively expect, into regimes where e.g.  is not so large ("poor conductors.") In this case, you will need to use Griffiths more careful results for the real and imaginary parts of the k vector and work with those.
+In Griffiths (and in class), we derived equations for EM waves in conductors, assuming a "good conductor." Interestingly, it turns out that the formulas we got can be pushed a good deal further than you might naively expect, into regimes where $\sigma$ is not so large ("poor conductors.") In this case, you will need to use Griffiths more careful results for the real and imaginary parts of the k vector and work with those.
 
 1. Based on the above comments, show that the skin depth for a "poor conductor" (i.e., $\sigma \ll \varepsilon \omega$) is $d \approx ?? \sqrt{\varepsilon/\mu}$, independent of frequency or wavelength. Work out what the "??" is in this equation. (Also, check the units of your answer explicitly, please!)
 2. Show that the skin depth for a "good conductor" (i.e., $\sigma \gg \varepsilon \omega$) is $d = \lambda/??$, where $\lambda$ is the wavelength in the conductor. (Work out the ?? in that formula.) Find the skin depth for microwaves in Cu ($f$ = 2.5 GHz). Briefly, how do you interpret that answer physically?
