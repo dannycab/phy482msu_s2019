@@ -1,31 +1,10 @@
 ---
 layout: homework
 use_math: true
-title: Homework 11 (Due. Apr 3)
+title: Homework 11 (Due. Apr 12)
 ---
 
-There are three physics problems this week, but the first two are quite similar...
-
-## 1. Spring constant of an atom
-
-In class we have modeled an atom as an electron with mass $m$ attached to the heavy nucleus with a spring. This atomic spring has zero equilibrium length and spring constant $k = m\omega_0$. Here we show that this model, though crude, is not crazy. Quantum mechanics tells us that in the ground state of hydrogen, the electron wave function is a spherically-symmetric cloud of charge centered on the atom. So, without too much violence to reality, we can model the electron as a uniform sphere of charge of radius $R$ = Bohr radius = 0.53 angstroms). When an external E-field is applied, the nucleus is pushed one way and the electron cloud is pushed the other way, so there is an induced dipole moment. We assume that the electron's sphere of negative charge is not distorted in shape when it is displaced. We also assume that the nucleus is so heavy that it remains stationary, while the electron cloud can oscillate about the stationary nucleus.
-
-![ecloud][ecloud]
-
-[ecloud]: ./images/hw11/electron_cloud.png
-
-1. Show that when the nucleus is displaced from the center of the electron cloud by a distance $d < R$), there is a restoring force that is proportional to $d$. Derive an expression the spring constant $k$ in this situation.
-2. Compute the value of the spring constant $k$, for the case of a hydrogen atom. Give the answer in both SI units (N/m = J/m$^2$) and in slightly more natural units of electron-volts per angstrom$^2$ (eV/Å$^2$). What is the natural frequency $f_0 = ω_0/2\pi$ (in Hz) for this mass-spring system?
-3. What is the wavelength of light that has this frequency? (Give your answer in nanometers.) What part of the spectrum does this correspond to? (Visible?, IR?, UV?, radio?, etc...)
-
-## 2. Dispersion in hydrogen gas
-
-When we first studied polarization in matter, we used a very simple atomic model to estimate the atomic polarizability from a static electric field. Now let's apply it for non-static fields.
-
-1. Assume the hydrogen atom is a point nucleus of charge $+e$ and mass $m_p$ surrounded by a sphere of uniform charge density of radius $r_H$ and total charge $-e$. In the absence of any external field, the equilibrium position of the nucleus is at the center of sphere. Find the force on the nucleus if it is displaced from the center by a distance d and use this to find an "effective" spring constant k. What is the natural frequency of oscillation for the hydrogen atom in this model? Putting in the actual values for the variables (the radius will be approximate of course), where in the electromagnetic spectrum does this frequency lie? (Hint: think about what you can reuse from question 1)
-2. For EM waves with frequencies far from the region of anomalous dispersion, we can ignore damping and use: $n=1 + \left(\dfrac{Nq^2}{2m\varepsilon_0}\sum_j\dfrac{f_j}{\omega^2_j}\right)+\omega^2\left(\dfrac{Nq^2}{2m\varepsilon_0}\sum_j\dfrac{f_j}{\omega^4_j}\right)$ or $n=1+A(1+B/\lambda^2)$ in terms of the wavelength, to predict the coefficients of refraction and dispersion for hydrogen. Use the numbers from part (a), and calculate these coefficients for hydrogen gas at STP, and cmopare them to the measured values of $A=1.36\times10^{-4}$ and $A=7.7\times10^{-15}$m$^2$.
-
-## 3. Waves in plasmas
+## 1. Waves in plasmas
 
 Consider a neutral plasma (gas of electrons and positive ions), with electron
 density $N_e$. At high frequencies, because the ions are very heavy, we can consider them to be essentially fixed and any current due solely to the light electrons. The total charge density can be set to zero for an electrically neutral gas.
@@ -35,10 +14,39 @@ density $N_e$. At high frequencies, because the ions are very heavy, we can cons
 3. Derive the dispersion relation $k=\sqrt{\omega^2-\omega_p^2}/c$. Sketch the graph of $\omega(k)$.
 4. Give the real elecrtic field when $\omega < \omega_p$.
 
+## 2. Star Wars with relativity
+
+Space Probe #1 passes very close to earth at a time that both we (on earth) and the onboard computer on Probe 1 decide to call t = 0 in our respective frames. The probe moves at a constant speed of 0.5$c$ away from earth. When the clock aboard Probe 1 reads t = 60sec, it sends a light signal straight back to earth.
+
+1. At what time was the signal sent, according to the earth's rest frame?
+2. At what time in the earth's rest frame do we receive the signal?
+3. At what time in Probe 1's rest frame does the signal reach earth?
+4. Space Probe #2 passes very close to earth at t = 1sec (earth time), chasing Probe 1. Probe 2 is only moving at 0.3c (as viewed by us). Probe 2 launches a proton beam (which moves at v = 0.21c relative to Probe 2) directed at Probe 1. Does this proton beam strike Probe 1? Please answer twice, once ignoring relativity theory, and then again using Einstein!
+
+## 3. Muon calculations
+
+The mean lifetime of muons is 2 $\mu\text{s}$ in their rest frame. Muons are produced in the upper atmosphere, as cosmic-ray secondaries.
+
+1. Calculate the mean distance traveled by muons with speed $v = 0.99c$, assuming classical physics (i.e. without special relativity).
+2. Under this assumption, what percentage of muons produced at an altitude of 10 km reach the ground, assuming they travel downward at $v = 0.99c$? Careful here, you will have to think about the distribution of lifetimes given that [particle decay is a Poisson process](https://en.wikipedia.org/wiki/Particle_decay).
+3. Calculate the mean distance traveled by muons with speed $v = 0.99c$, taking into account special relativity.
+4. Under this assumption, what percentage of muons produced at an altitude of 10 km reach the ground, assuming they travel downward at $v = 0.99c$?
+
 ## 4. Paired Project Problem
 
-1. Read the feedback that you received on your figure/models and think about how you and your partner are going to work through these details.
-2. Project work - Provide some sample calculations and figures produced by your code. This can be a notebook (Jupyter), but the work needs to be explained inline (i.e., what are you doing and why?). This is the work that is the meat of your original contribution. It need not be complete yet.
-3. Self-reflection - Think about how the project is going and how you are both contributing. Write out a document for the last couple of weeks worth of work inclduing this one that describes: Who did what? Hoes does it feel like the contributions for the members of your pair are equal? Regarding the project specifically, what questions do you need to answer to continue to move forward and what help do you need from me or others?
+Make sure to read the feedback that you received on your figure/models and think about how you and your partner are going to work through these details.
+
+At this point, you should produce draft figures for poster with captions. You should have pressed onward with your calculations and produced appropriate figures for your poster with captions. The "graphic" and caption should be turned in. These need not be complete in the sense that you should continue working on your calculations and models until the poster is turned in. By draft, I do mean draft, so any figures that you are thinking about putting in the poster, please include them in their current form. Make sure to give me enough information to:
+
+1. judge what the figures are,
+2. where they will go in the poster, and
+3. what part of the poster story they will be telling.
+
+In addition, please continue to reflect on:
+
+1. Who did what?
+2. What questions were you able to answer last week?
+3. What questions do you need to answer to continue to move forward?
+4. What help do you need from me or others?
 
 You will turn in both your "notebook" and your self-reflection using the same GitHub repository you started for Project 2. **Make sure that you sync your repository first to get the new feedback!**
