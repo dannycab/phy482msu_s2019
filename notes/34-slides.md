@@ -40,18 +40,6 @@ Note:
 
 <section data-markdown>
 
-<img src="./images/just_lucy.png" align="center" style="width: 500px";/>
-
-Two firecrackers sitting on the ground explode. This time, Lucy is sitting twice as far from firecracker 1 as from firecracker 2. She sees the explosions at the same time. Which firecracker exploded first in Lucy’s reference frame?
-
-1. Both explode at the same time
-2. Firecracker 1 explodes first
-3. Firecracker 2 explodes first
-
-</section>
-
-<section data-markdown>
-
 <img src="./images/light_clock.png" align="center" style="width: 700px";/>
 
 In which frame of reference is the time between tics of the clock **longer**?
@@ -150,21 +138,6 @@ Note:
 
 <section data-markdown>
 
-In a particle detection experiment, the fraction of particles detected is:
-
-1. underestimated
-2. overestimated
-3. the same as
-
-if we use the time of flight in the detector frame.
-
-Note:
-* Correct Answer: A
-
-</section>
-
-<section data-markdown>
-
 
 In our particle detection experiment, the fraction of particles detected at a given location in detector frame will be:
 
@@ -205,120 +178,4 @@ Is the proper time interval ($\Delta \tau = \dfrac{\Delta t}{\gamma}$) between t
 Note:
 * Correct answer: A
 
-</section>
-
-<section data-markdown>
-
-Consider a $S'$ frame moving with a speed $v$ in 1D with respect to a stationary frame $S$. Using your everyday intuition, write down the relationship between a position measurement $x$ and $x'$.
-
-*Be ready to explain why this makes sense to you.*
-
-</section>
-
-<section data-markdown>
-
-The Galilean transformation between $S'$ and $S$ is:
-
-$$x = x' + vt$$
-
-The Lorentz transformation will introduce a $\gamma$, where do you think it goes? And why?
-
-
-</section>
-
-<section data-markdown>
-
-I'm in frame $S$, and you are in is in Frame $S'$, which moves with speed $V$ in the $+x$ direction.
-
-An object moves in the $S'$ frame in the $+x$ direction with speed $v'_x$.
-Do I measure its $x$ component of velocity to be $v_x = v'_x$?
-
-1. Yes
-2. No
-3. ???
-
-Note:
-* Correct Answer: B
-
-</section>
-
-<section data-markdown>
-
-## Announcements
-
-* Poster Rubric posted
-  * Review because you will be using it.
-  * Lowest and highest peer scores will be dropped
-  * My score: 60%; Your (average score): 40%
-
-</section>
-
-<section data-markdown>
-
-I'm in frame $S$, and you are in is in Frame $S'$, which moves with speed $V$ in the $+x$ direction.
-
-An object moves in the $S'$ frame in the $+y$ direction with speed $v'_y$.
-Do I measure its $y$ component of velocity to be $v_y = v'_y$?
-
-1. Yes
-2. No
-3. ???
-
-Note:
-* Correct Answer: B
-
-</section>
-
-<section data-markdown>
-
-With Einstein's velocity addition rule,
-
-$$u = \dfrac{u' + v}{1+\frac{u'v}{c^2}}$$
-
-what happens when $v$ is very small compared to $c$?
-
-1. $u\rightarrow 0$
-2. $u\rightarrow c$
-3. $u\rightarrow \infty$
-4. $u \approx u' + v$
-5. Something else
-
-Note:
-* Correct Answer: D
-</section>
-
-<section data-markdown>
-
-With Einstein's velocity addition rule,
-
-$$u = \dfrac{u' + v}{1+\frac{u'v}{c^2}}$$
-
-what happens when $u'$ is $c$?
-
-1. $u\rightarrow 0$
-2. $u\rightarrow c$
-3. $u\rightarrow \infty$
-4. $u \approx u' + v$
-5. Something else
-
-Note:
-* Correct Answer: B
-</section>
-
-<section data-markdown>
-
-With Einstein's velocity addition rule,
-
-$$u = \dfrac{u' + v}{1+\frac{u'v}{c^2}}$$
-
-what happens when $v$ is $c$?
-
-1. $u\rightarrow 0$
-2. $u\rightarrow c$
-3. $u\rightarrow \infty$
-4. $u \approx u' + v$
-5. Something else
-
-Note:
-* Correct Answer: B
 </section>
