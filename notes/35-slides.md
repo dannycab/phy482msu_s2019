@@ -10,6 +10,9 @@ Consider a $S'$ frame moving with a speed $v$ in 1D with respect to a stationary
 
 *Be ready to explain why this makes sense to you.*
 
+Note:
+This is just to get them thinking about the Galilean transformation again as you will do this with gamma.
+
 </section>
 
 <section data-markdown>
@@ -20,7 +23,8 @@ $$x = x' + vt$$
 
 The Lorentz transformation will introduce a $\gamma$, where do you think it goes? And why?
 
-
+Note:
+This is just to get them thinking. The time will dilate and the length with contract, so where does the gamma go? It ultimately multiples both.
 </section>
 
 <section data-markdown>
@@ -36,6 +40,7 @@ Do I measure its $x$ component of velocity to be $v_x = v'_x$?
 
 Note:
 * Correct Answer: B
+* can't be. because of time dilation and length contraction
 
 </section>
 
@@ -52,6 +57,7 @@ Do I measure its $y$ component of velocity to be $v_y = v'_y$?
 
 Note:
 * Correct Answer: B
+* again. can't be. because of time dilation and length contraction
 
 </section>
 
@@ -71,6 +77,7 @@ what happens when $v$ is very small compared to $c$?
 
 Note:
 * Correct Answer: D
+* denominator goes to 1 because second term is near zero - get back classical addition
 </section>
 
 <section data-markdown>
@@ -89,6 +96,7 @@ what happens when $u'$ is $c$?
 
 Note:
 * Correct Answer: B
+* plug it in and you will get c; if something moves with c it does so in every frame - constant speed of light
 </section>
 
 <section data-markdown>
@@ -107,6 +115,7 @@ what happens when $v$ is $c$?
 
 Note:
 * Correct Answer: B
+* if frame moves at c, all things move at c
 </section>
 
 <section data-markdown>
