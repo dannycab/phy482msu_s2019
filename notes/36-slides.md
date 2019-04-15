@@ -25,7 +25,8 @@ $$\mathbf{a}\cdot\mathbf{b} \equiv a_{\mu}b^{\mu}$$
   * Tell them you are in PHY 482
   * Make sure to give a couple of days for the print! (No weekends)
 * Last Quiz (this Friday)
-  * Use special relativity to effects of particle decay
+  * Use special relativity to investigate the effects of particle detection
+  * Compare two events observed from different frames
 
 </section>
 
