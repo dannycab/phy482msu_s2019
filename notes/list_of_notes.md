@@ -24,6 +24,9 @@ permalink: notes/index.html
 * [15 - Introduction to Special Relativity](./handwritten/15-Introduction_to_Special_Relativity.pdf)
 * [16 - Particle Decay](./handwritten/16-Particle_Decay.pdf)
 * [17 - Lorentz Transformation](./handwritten/17-Lorentz_Transformation.pdf)
+* [18 - Four vectors](./handwritten/18-Four_vectors.pdf)
+* [19 - Minkowski Diagrams](./handwritten/19-Minkowski_Diagrams.pdf)
+* [20 - Relativistic Energy and Momentum](./handwritten/20-Relatvisitic_Energy_and_Momentum.pdf)
 
 ## Slides
 
@@ -61,3 +64,4 @@ permalink: notes/index.html
 * Lecture 33 (April 8th): Introduction to Special Relativity [[HTML]](./33-slides.html)[[PDF]](./33-slides.pdf)
 * Lecture 34 (April 10th): Examples of Special Relativity [[HTML]](./34-slides.html)[[PDF]](./34-slides.pdf)
 * Lecture 35 (April 12th): Lorentz Transformations [[HTML]](./35-slides.html)[[PDF]](./35-slides.pdf)
+* Lecture 36 (April 15th): 4-vectors [[HTML]](./36-slides.html)[[PDF]](./36-slides.pdf)
