@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Homework 13 (Due. Apr 17)</title>
+  <title>Homework 13 (Due. Apr 26)</title>
   <meta name="description" content="Website for Physics 482 - Electricity and Magnetism II at Michigan State University
 ">
 
@@ -146,7 +146,7 @@
       
       
         
-          <li><a href="/phy482msu_s2019/assignments/homework13.html">Homework 13 (Due. Apr 17)</a></li>
+          <li><a href="/phy482msu_s2019/assignments/homework13.html">Homework 13 (Due. Apr 26)</a></li>
       
       
         
@@ -358,7 +358,7 @@
           
         
           
-          <a class="page-link" href="/phy482msu_s2019/assignments/homework13.html">Homework 13 (Due. Apr 17)</a>
+          <a class="page-link" href="/phy482msu_s2019/assignments/homework13.html">Homework 13 (Due. Apr 26)</a>
           
         
           
@@ -449,57 +449,88 @@
 
       <div class="container well">
 
-        <h1 class="post-title">Homework 13 (Due. Apr 17)</h1>
+        <h1 class="post-title">Homework 13 (Due. Apr 26)</h1>
           <div >
-    <h2 id="1--lorentz-transformation-for-the-general-velocity-vector">1.  Lorentz transformation for the general velocity vector</h2>
+    <h2 id="1-magnetic-field-of-a-wire">1. Magnetic field of a wire</h2>
 
-<p>Textbooks tend to only give you the Lorentz transformation along a single coordinate axis, but it is not always convenient to keep redefining the coordinate system for problems with several different velocities. To derive a more general formula using vector notation, use the idea that the part of a position vector $\vec{r}$ that is parallel to the velocity is the part that is changed by the transformation, while the part that is perpendicular to the velocity is unchanged.</p>
+<p><img src="/phy482msu_s2019/assignments/images/hw14/charges_and_wire.png" alt="compare" /></p>
 
-<ol>
-  <li>Assume that you wish to transform from your inertial frame (the ($\vec{r}, ct$) frame] to the “primed” inertial frame ($\vec{r}’, ct’$) moving with velocity $\vec{v} = c\vec{\beta}$ that points in some arbitrary direction (e.g., it has an $x$, $y$ and $z$ component). You should find the following: $c t’ = \gamma (c t − \vec{r} \cdot \vec{\beta})$ and $\vec{r}’=\vec{r}+(\gamma −1)(\vec{r}\cdot \hat{\beta})\hat{\beta}−\gamma ct \vec{\beta}$.</li>
-  <li>Show that in the case that the velocity is in the x-direction, you get back the usual transformation.</li>
-  <li>How would you write this using 4-vector notation? What is $\Lambda_{\nu}^{\mu}$?</li>
-</ol>
-
-<h2 id="2-transformation-of-velocity-and-acceleration-components">2. Transformation of velocity and acceleration components</h2>
-
-<p>We derived the transformation of velocity in 1D (i.e., when there is one frame moving at a speed $v$ in the $x$ direction, $S’$ relative to the other, $S$) using the Lorentz transformations. We found that</p>
-
-<script type="math/tex; mode=display">u = \dfrac{u' + v}{1+\frac{u'v}{c^2}}</script>
+<p>Shown above is a model of a wire with a current flowing to the right. To avoid minus signs we take the current to consist of a flow of positive charge carriers, each with charge $+q$, separated by an average distance of $l$. The wire is electrically neutral in the lab frame, so there must also be a bunch of negative charges, at rest, separated by the same average distance $l$ in this frame. Be aware that charge is Lorenz invariant: a charge Q has the same value in every inertial frame.</p>
 
 <ol>
-  <li>Derive the relationship between the velocity components in each frame (for both the $y$ and $z$ directions) for the same scenario. Recall that length measurements will be the same in both frames!</li>
-  <li>Derive the relationship between the acceleration measured in the $S$ frame and the $S’$ frame in just the x-direction.</li>
-  <li>Show check the limits of your results in part 2 when $v$ approaches 0. Does you result make sense? What about when $v$ approaches $c$?</li>
+  <li>Using Gauss’ law, what is the electric field outside this wire in the lab frame? Suppose there is a test charge $+Q$ outside the wire, a distance $R$ from the center of the wire, moving to the right (For simplicity, let’s say the velocity is the same as that of the moving charges in the wire, i.e. $v$, as shown in the figure.)</li>
+  <li>Given your answer for the E-field, what is the electrostatic force on this charge, in this frame?</li>
+  <li>Using Ampere’s (and the Lorentz force) law - what is the magnetic force on the moving test charge $Q$?</li>
+  <li>Put it together, what is the magnitude and direction of the net force on the test charge, and what “causes” it?</li>
+  <li>Now consider how all this looks in the reference frame of the test charge, where it’s at rest. In THIS frame, what is the magnetic force on the test charge $Q$? In this frame, it’s the negative charges in the wire that are moving to the left. Because they’re moving, the average distance between them is length-contracted. Meanwhile the positive charges are now at rest, so the average distance between them is now longer than $l$.</li>
+  <li>What is the average distance ($l_+$) between the positive charge carriers in this frame? Both of these effects give the wire a non-zero charge density.</li>
+  <li>Compute the charge density (charge per length) in this frame, with the correct overall sign.</li>
+  <li>Use Gauss’s Law to compute the electrostatic force on the test charge.</li>
+  <li>In THIS frame, what is the magnitude and direction of the force on the test
+charge, and what “causes” it?</li>
+  <li>For normal currents, $\beta = v/c$ is about $10^{−13}$. (Drift velocities are small!) Given this, show that the forces you computed in parts 4 and 9 are the same size. <em>Hint: expand in a Taylor series.</em></li>
 </ol>
 
-<h2 id="3-rapidity">3. Rapidity</h2>
+<h2 id="2-eb-transformations">2. E&amp;B transformations</h2>
 
-<p>It is common in nuclear physics to talk about “rapidity” of a particle, defined as an angle $\phi = \cosh^{-1} \gamma$ (here $\gamma$ is the usual relativistic gamma factor, and that’s an inverse hyperbolic $\cosh$).</p>
+<script type="math/tex; mode=display">\bar{E}_{x} = E_{x} \qquad \bar{E}_y = \gamma\left(E_y-vB_z\right) \qquad \bar{E}_z = \gamma\left(E_z+vB_y\right)</script>
+
+<script type="math/tex; mode=display">\bar{B}_{x} = B_{x} \qquad \bar{B}_y = \gamma\left(B_y+\dfrac{v}{c^2}E_z\right) \qquad \bar{B}_z = \gamma\left(B_z-\dfrac{v}{c^2}E_y\right)</script>
 
 <ol>
-  <li>Prove that the usual relativistic $\beta = v/c$ is given by $\beta = \tanh \phi$, and then show $\beta \gamma = \sinh \phi$. With these, rewrite the Lorentz transformations in matrix form entirely in terms of the rapidity angle. The result you get might remind you of a rather different kind of transformation, please comment!</li>
-  <li>Suppose that observer B has rapidity $\phi_1$ as measured by observer A, and C has rapidity $\phi_2$ as observed by B (both velocities are on the x-axis). Show that the rapidity of C as measured by A is just $\phi_1 + \phi_2$, i.e. rapidities “add” (unlike velocities, which do not “properly” add in relativity!)</li>
+  <li>Use these equations to show that both $\mathbf{E}\cdot\mathbf{B}$ and $(E^2 − c^2 B^2)$ are Lorentz invariants.</li>
+  <li>We found earlier that $\mathbf{E}$ and $\mathbf{B}$ are mutually perpendicular for traveling EM waves. Given that this is true in some frame, can there be any other reference frame in which you would find $\mathbf{E}$ and $\mathbf{B}$ not perpendicular for traveling EM waves?</li>
+  <li>Suppose $E &gt; cB$ in some frame. Show that there is <em>no</em> possible frame in which $E=0$.
+    <ul>
+      <li>If $E = 0$ in some frame, do these relations mean that $E$ is always equal to 0 in every other inertial frame?</li>
+      <li>If $B = 0$ (but $E$ is nonzero) in some frame, can you always (ever?) find another frame in which $E = 0$ (but $B$ is nonzero)?</li>
+    </ul>
+  </li>
 </ol>
 
-<p><em>Here is a hyperbolic identity you might find useful:</em>
-<script type="math/tex">\tanh(a+b) = \dfrac{\tanh a + \tanh b}{1 + \tanh a \tanh b}</script>.</p>
+<h2 id="3-maxwells-equations-written-compactly">3. Maxwell’s equations written compactly</h2>
 
-<h2 id="4-invariance-of-the-space-time-interval">4. Invariance of the space-time interval</h2>
+<p>We found that we could write the field tensor like this</p>
 
-<p>Prove that the interval between two events is Lorentz Invariant:</p>
+<script type="math/tex; mode=display">% <![CDATA[
+F^{\mu\nu}=\left(
+\begin{array}{cccc}
+  0 & E_x/c & E_y/c & E_z/c\\
+  -E_x/c & 0 & B_z & -B_y\\
+  -E_y/c & -B_z & 0 & B_x\\
+  -E_z/c & B_y & -B_x & 0\\
+\end{array}
+\right) %]]></script>
 
-<script type="math/tex; mode=display">I = \Delta {x}'_{\mu} \Delta {x}'^{\mu} = \Delta {x}_{\mu} \Delta {x}^{\mu}</script>
+<p>and the dual tensor like this,</p>
 
-<p>Recall that the Lorentz transformation is $\Delta {x}’^{\mu} = \Lambda_{\nu}^{\mu} \Delta x^{\nu}$.</p>
+<script type="math/tex; mode=display">% <![CDATA[
+G^{\mu\nu}=\left(
+\begin{array}{cccc}
+  0 & B_x & B_y & B_z\\
+  -B_x & 0 & -E_z/c & E_y/c\\
+  -B_y & E_z/c & 0 & -E_x/c\\
+  -B_z & -E_y/c & E_x/c & 0\\
+\end{array}
+\right) %]]></script>
 
-<h2 id="5-project-problem---choose-your-feedback">5. Project problem - Choose your feedback</h2>
+<p>With the current density 4-vector written as this: $J^{\mu} = (c\rho,J_x,J_y,J_z)$, we claim that Maxwell’s equations in vaccuum are given thusly,</p>
 
-<p>You’ve been working on this project for a while now and this will be the last formal project problem. Think about what feedback you want from me regarding your project. What would be helpful? What do you need some direction or instructions on? Think about what would help you the most to make a successful poster in a couple of weeks. Write up a short document outlining what feedback you feel that you need and direct me to the document(s) to review.</p>
+<script type="math/tex; mode=display">\dfrac{\partial F^{\mu\nu}}{\partial x^{\nu}} = \mu_0 J^{\mu}, \qquad \dfrac{\partial G^{\mu\nu}}{\partial x^{\nu}} = 0</script>
 
-<p>This kind of work models what your advisor (or boss) might do when you are presenting a project that you’ve been working on. You know the details of the project better than the advisor (or boss), but you might still want help thinking about the big picture or, perhaps, some specific details that you want to check.</p>
+<ol>
+  <li>Show by explicit calculation that you can recover all 4 Maxwell’s equations.</li>
+  <li>What would have happened if $\dfrac{\partial G^{\mu\nu}}{\partial x^{\nu}} \neq 0$? Think about what happens physically?! It must be zero!</li>
+</ol>
 
-<p><strong>As usual,  commit these changes to your repository.</strong></p>
+<h2 id="self-reflection-phy-481-and-482">Self-Reflection (PHY 481 and 482)</h2>
+
+<p>We’ve talked about a lot of different things in E&amp;M 1 and 2. In doing so, we’ve covered Chapters 1-9 and 12 of Griffiths along with a bunch of other special topics. You’ve studied systems on your own and learned a ton of E&amp;M. Think about where your E&amp;M knowledge was at the beginning of last fall and where it is now.</p>
+
+<ol>
+  <li>Write up a half-page or so about how you feel your understanding of E&amp;M has changed. Think about what you enjoyed learning most, what you felt you learned most deeply, and what you think that means for you in your future as a physicist.</li>
+  <li>On the first day of class in PHY 481, I asked you to draw a concept map of E&amp;M. How different concepts were connected and why they were connected that way. Draw another one now. Think about all the new knowledge you have gained and how it all fits together. Focus on the high level concepts and ideas and fill in as much detail as you feel you need to make your point.</li>
+</ol>
 
   </div>
 
