@@ -27,6 +27,7 @@ permalink: notes/index.html
 * [18 - Four vectors](./handwritten/18-Four_vectors.pdf)
 * [19 - Minkowski Diagrams](./handwritten/19-Minkowski_Diagrams.pdf)
 * [20 - Relativistic Energy and Momentum](./handwritten/20-Relatvisitic_Energy_and_Momentum.pdf)
+* [21 - Relativistic E&M](./handwritten/21-Relativistic_EM.pdf)
 
 ## Slides
 
