@@ -66,4 +66,5 @@ permalink: notes/index.html
 * Lecture 34 (April 10th): Examples of Special Relativity [[HTML]](./34-slides.html)[[PDF]](./34-slides.pdf)
 * Lecture 35 (April 12th): Lorentz Transformations [[HTML]](./35-slides.html)[[PDF]](./35-slides.pdf)
 * Lecture 36 (April 15th): 4-vectors [[HTML]](./36-slides.html)[[PDF]](./36-slides.pdf)
-* Lecture 37 (April 17th): Space-Time Intervals & Minkowski Diagrams [[HTML]](./37-slides.html)[[PDF]](./37-slides.pdf)
+* Lecture 37 (April 17th): Space-Time Intervals [[HTML]](./37-slides.html)[[PDF]](./37-slides.pdf)
+* Lecture 38 (April 19th): Minkowski Diagrams [[HTML]](./38-slides.html)[[PDF]](./38-slides.pdf)
