@@ -68,3 +68,4 @@ permalink: notes/index.html
 * Lecture 36 (April 15th): 4-vectors [[HTML]](./36-slides.html)[[PDF]](./36-slides.pdf)
 * Lecture 37 (April 17th): Space-Time Intervals [[HTML]](./37-slides.html)[[PDF]](./37-slides.pdf)
 * Lecture 38 (April 19th): Minkowski Diagrams [[HTML]](./38-slides.html)[[PDF]](./38-slides.pdf)
+* Lecture 39 (April 22nd): Energy and Momentum [[HTML]](./39-slides.html)[[PDF]](./39-slides.pdf)
