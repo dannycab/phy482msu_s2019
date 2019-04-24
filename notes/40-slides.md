@@ -19,7 +19,7 @@ Do you see a problem do you see with $\mathbf{F} = \dfrac{d\mathbf{p}}{dt}$ with
 
 Can we define a 4-force via the 4-momentum?
 
-$$\dfrac{dp^{\mu}}{dt} = K^{\mu}$$
+$$\dfrac{dp^{\mu}}{d\tau} = K^{\mu}$$
 
 Is $K^{\mu}$, so defined, a 4-vector?
 
@@ -142,5 +142,21 @@ How does $E_x$ compare to $\bar{E}_x$?
 
 Note:
 * Correct answer: A
+
+</section>
+
+<section data-markdown>
+
+Consider the equation
+
+$$\dfrac{\partial G^{\mu \nu}}{\partial x^{\nu}} = 0$$
+
+How many ordinary equations is that really?
+
+1. 1
+2. 4
+3. 6
+4. 16
+5. ????
 
 </section>
